@@ -26,9 +26,13 @@ ds-work/
 │   │   └── data/
 │   │       └── ipl_player_runs.csv            # Real-world dataset for Task 5
 │   │
-│   └── session-03-variance-and-standard-deviation/ # Session 3: Variance & Standard Deviation
-│       ├── session_03_variance_and_standard_deviation.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
-│       └── README.md                          # Session 3 task descriptions & answers
+│   ├── session-03-variance-and-standard-deviation/ # Session 3: Variance & Standard Deviation
+│   │   ├── session_03_variance_and_standard_deviation.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
+│   │   └── README.md                          # Session 3 task descriptions & answers
+│   │
+│   └── session-04-skewness-basic/             # Session 4: Skewness (Basic)
+│       ├── session_04_skewness_basic.ipynb    # Primary interactive notebook (All 4 tasks solved & executed)
+│       └── README.md                          # Session 4 task descriptions & answers
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 └── data/                                      # Shared raw and processed datasets
@@ -63,6 +67,6 @@ To install any future libraries:
 
 ```powershell
 git add .
-git commit -m "feat: complete Session 1, Session 2, and Session 3 executed notebooks"
+git commit -m "feat: complete Sessions 1, 2, 3, and 4 executed notebooks"
 git push origin main
 ```

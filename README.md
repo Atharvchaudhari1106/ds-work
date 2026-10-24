@@ -38,9 +38,13 @@ ds-work/
 │   │   ├── session_05_sampling.ipynb          # Primary interactive notebook (All 5 tasks solved & executed)
 │   │   └── README.md                          # Session 5 task descriptions & answers
 │   │
-│   └── session-06-hypothesis-testing-basic/   # Session 6: Hypothesis Testing (Basic)
-│       ├── session_06_hypothesis_testing_basic.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
-│       └── README.md                          # Session 6 task descriptions & answers
+│   ├── session-06-hypothesis-testing-basic/   # Session 6: Hypothesis Testing (Basic)
+│   │   ├── session_06_hypothesis_testing_basic.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
+│   │   └── README.md                          # Session 6 task descriptions & answers
+│   │
+│   └── session-07-correlation/                # Session 7: Correlation
+│       ├── session_07_correlation.ipynb       # Primary interactive notebook (All 4 tasks solved & executed)
+│       └── README.md                          # Session 7 task descriptions & answers
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 └── data/                                      # Shared raw and processed datasets
@@ -75,6 +79,6 @@ To install any future libraries:
 
 ```powershell
 git add .
-git commit -m "feat: complete Sessions 1 through 6 executed notebooks"
+git commit -m "feat: complete Sessions 1 through 7 executed notebooks"
 git push origin main
 ```

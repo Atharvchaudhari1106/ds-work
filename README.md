@@ -9,19 +9,14 @@ Welcome to your central Data Science repository! This workspace is configured fo
 ```text
 ds-work/
 ├── .gitignore                                 # Ignores .venv, cache, and OS files
-├── requirements.txt                           # Python project dependencies
+├── requirements.txt                           # Python project dependencies (pandas, numpy, matplotlib)
 ├── README.md                                  # Repository overview and setup guide
 │
-├── assignments/                               # Dedicated assignments directory / sub-repo
+├── assignments/                               # Dedicated assignments directory
 │   ├── README.md                              # Assignments index and submission guide
 │   └── session-02-mean-median-mode/           # Session 2: Mean, Median & Mode
-│       ├── playlist_stats.py                  # Task 1: Mean Spotify play counts
-│       ├── zomato_median.py                   # Task 2: Median Zomato delivery times
-│       ├── flipkart_mode.py                   # Task 3: Mode for Flipkart product ratings
-│       ├── youtube_outliers.py                # Task 4: Outlier impact on YouTube views
-│       ├── dataset_analysis.py                # Task 5: Real IPL dataset analysis (Pandas)
-│       ├── run_all_tasks.py                   # Run & test all 5 tasks
-│       ├── session_02_mean_median_mode.ipynb  # Interactive Jupyter Notebook
+│       ├── session_02_mean_median_mode.ipynb  # Primary interactive notebook (All 5 tasks solved & executed)
+│       ├── playlist_stats.py                  # Task 1 Python script (explicitly requested)
 │       ├── README.md                          # Session 2 task descriptions & answers
 │       └── data/
 │           └── ipl_player_runs.csv            # Real-world dataset for Task 5
@@ -34,7 +29,7 @@ ds-work/
 
 ## 🛠️ Environment Setup
 
-A dedicated Python virtual environment `.venv` is configured with `pandas` and `numpy`.
+A dedicated Python virtual environment `.venv` is configured with `pandas`, `numpy`, and `matplotlib`.
 
 ### Activate the environment:
 **Windows PowerShell:**
@@ -55,54 +50,10 @@ To install any future libraries:
 
 ---
 
-## 📤 How to Upload / Push to GitHub
+## 📤 Pushing Changes to GitHub
 
-You have GitHub CLI (`gh`) already installed and authenticated on your machine!
-
-### Option 1: Publish the entire `ds-work` repository (Recommended)
-
-1. Open your terminal in this repository folder (`ds-work`):
-   ```powershell
-   cd C:\Users\Atharv\.gemini\antigravity-ide\scratch\ds-work
-   ```
-
-2. Add all files and make the initial commit:
-   ```powershell
-   git add .
-   git commit -m "feat: complete data science setup with Session 2 assignments"
-   ```
-
-3. Create the remote repository on GitHub using GitHub CLI:
-   ```powershell
-   gh repo create ds-work --public --source=. --remote=origin --push
-   ```
-   *(Or change `--public` to `--private` if you prefer a private repository).*
-
-4. Done! Your code will be live at:
-   `https://github.com/Atharvchaudhari1106/ds-work`
-
----
-
-### Option 2: Upload the `assignments` folder as its own dedicated GitHub repository
-
-If your instructor or submission portal requires a repository dedicated solely to assignments (e.g. `ds-assignments`):
-
-1. Navigate to the `assignments` folder:
-   ```powershell
-   cd C:\Users\Atharv\.gemini\antigravity-ide\scratch\ds-work\assignments
-   ```
-
-2. Initialize Git in that folder:
-   ```powershell
-   git init
-   git add .
-   git commit -m "feat: add Session 2 Mean, Median & Mode assignment"
-   ```
-
-3. Push directly to GitHub:
-   ```powershell
-   gh repo create ds-assignments --public --source=. --remote=origin --push
-   ```
-
-4. Your assignment submission link will be:
-   `https://github.com/Atharvchaudhari1106/ds-assignments`
+```powershell
+git add .
+git commit -m "feat: use notebook-first workflow with session 2 solutions"
+git push origin main
+```

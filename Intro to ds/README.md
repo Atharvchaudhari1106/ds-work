@@ -14,6 +14,7 @@ This directory contains the complete coursework submissions, interactive Jupyter
 | **Git & GitHub** | [Git & GitHub Collaboration](git-github/README.md) | [`git_github_assignment.ipynb`](git-github/git_github_assignment.ipynb) | Git CLI Verification, Local Repo Init, GitHub Remote Link (`foodie-favorites`), Team Collaboration Simulation & Issue Creation. | ✅ Completed (Executed) |
 | **Git Branching**    | [Git Branching & Collaboration](git-branching-collaboration/README.md) | [`git_branching_collaboration.ipynb`](git-branching-collaboration/git_branching_collaboration.ipynb) | Feature Branching, Non-Fast-Forward Merge, Conflict Generation/Resolution, Public Repo Fork & Upstream PR. | ✅ Completed (Executed) |
 | **Project Structure**| [Professional Project Structure](professional-project-structure/README.md) | [`professional_project_structure.ipynb`](professional-project-structure/professional_project_structure.ipynb) | DA Architecture (`insta-analytics`), ML Architecture (`ml-project`), Targeted `.gitignore`, Production README, Open-Source Audit (`prophet`). | ✅ Completed (Executed) |
+| **Publishing & Portfolio**| [Publishing Projects & Building Your DS Portfolio](publishing-projects-ds-portfolio/README.md) | [`publishing_projects_ds_portfolio.ipynb`](publishing-projects-ds-portfolio/publishing_projects_ds_portfolio.ipynb) | GitHub Repo Creation (`my-movie-ratings`), 105MB CSV via Git LFS, `nbdime` AST diffing, DS Showcase (no raw data), GitHub Pages Portfolio. | ✅ Completed (Executed) |
 
 ---
 
@@ -34,6 +35,9 @@ Intro to ds/
 │   └── README.md                             # Step-by-step audit & solutions
 ├── professional-project-structure/           # Professional Project Structure module
 │   ├── professional_project_structure.ipynb  # Execution & verification notebook
+│   └── README.md                             # Step-by-step audit & solutions
+├── publishing-projects-ds-portfolio/         # Publishing Projects & Portfolio module
+│   ├── publishing_projects_ds_portfolio.ipynb# Execution & verification notebook
 │   └── README.md                             # Step-by-step audit & solutions
 └── data/
     ├── spotify_mini.csv                      # Simulated 12-track Spotify dataset

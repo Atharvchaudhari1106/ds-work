@@ -25,6 +25,10 @@ ds-work/
 │   │   ├── git_branching_collaboration.ipynb  # Execution & verification notebook
 │   │   └── README.md                          # Full solutions documentation & merge logs
 │   │
+│   ├── publishing-projects-ds-portfolio/      # Publishing Projects & Building Your DS Portfolio
+│   │   ├── publishing_projects_ds_portfolio.ipynb # Comprehensive execution & verification notebook
+│   │   └── README.md                          # Full solutions documentation & GitHub links
+│   │
 │   ├── professional-project-structure/        # Professional Project Structure for DA/DS
 │   │   ├── professional_project_structure.ipynb # Execution & verification notebook
 │   │   └── README.md                          # Full solutions documentation & audit

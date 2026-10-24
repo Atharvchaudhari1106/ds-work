@@ -50,9 +50,13 @@ ds-work/
 │   │   ├── session_08_probability_basics.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
 │   │   └── README.md                          # Session 8 task descriptions & answers
 │   │
-│   └── session-09-normal-distribution/        # Session 9: Normal Distribution
-│       ├── session_09_normal_distribution.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
-│       └── README.md                          # Session 9 task descriptions & answers
+│   ├── session-09-normal-distribution/        # Session 9: Normal Distribution
+│   │   ├── session_09_normal_distribution.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
+│   │   └── README.md                          # Session 9 task descriptions & answers
+│   │
+│   └── session-10-bayes-theorem-basic/        # Session 10: Bayes' Theorem (Basic)
+│       ├── session_10_bayes_theorem_basic.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
+│       └── README.md                          # Session 10 task descriptions & answers
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 └── data/                                      # Shared raw and processed datasets

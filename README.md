@@ -46,9 +46,13 @@ ds-work/
 │   │   ├── session_07_correlation.ipynb       # Primary interactive notebook (All 4 tasks solved & executed)
 │   │   └── README.md                          # Session 7 task descriptions & answers
 │   │
-│   └── session-08-probability-basics/         # Session 8: Probability Basics
-│       ├── session_08_probability_basics.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
-│       └── README.md                          # Session 8 task descriptions & answers
+│   ├── session-08-probability-basics/         # Session 8: Probability Basics
+│   │   ├── session_08_probability_basics.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
+│   │   └── README.md                          # Session 8 task descriptions & answers
+│   │
+│   └── session-09-normal-distribution/        # Session 9: Normal Distribution
+│       ├── session_09_normal_distribution.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
+│       └── README.md                          # Session 9 task descriptions & answers
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 └── data/                                      # Shared raw and processed datasets
@@ -83,6 +87,6 @@ To install any future libraries:
 
 ```powershell
 git add .
-git commit -m "feat: complete Sessions 1 through 8 executed notebooks"
+git commit -m "feat: complete Sessions 1 through 9 executed notebooks"
 git push origin main
 ```

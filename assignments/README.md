@@ -16,6 +16,7 @@ This directory stores all session assignments, exercises, and coursework submiss
 | **Session 6** | [Hypothesis Testing (Basic)](session-06-hypothesis-testing-basic/README.md) | [`session_06_hypothesis_testing_basic.ipynb`](session-06-hypothesis-testing-basic/session_06_hypothesis_testing_basic.ipynb) | ✅ Completed (Executed) |
 | **Session 7** | [Correlation](session-07-correlation/README.md) | [`session_07_correlation.ipynb`](session-07-correlation/session_07_correlation.ipynb) | ✅ Completed (Executed) |
 | **Session 8** | [Probability Basics](session-08-probability-basics/README.md) | [`session_08_probability_basics.ipynb`](session-08-probability-basics/session_08_probability_basics.ipynb) | ✅ Completed (Executed) |
+| **Session 9** | [Normal Distribution](session-09-normal-distribution/README.md) | [`session_09_normal_distribution.ipynb`](session-09-normal-distribution/session_09_normal_distribution.ipynb) | ✅ Completed (Executed) |
 
 ---
 

@@ -14,6 +14,11 @@ ds-work/
 │
 ├── assignments/                               # Dedicated assignments directory
 │   ├── README.md                              # Assignments index and submission guide
+│   │
+│   ├── session-01-intro-to-statistics/        # Session 1: Introduction to Statistics in Data Science
+│   │   ├── session_01_intro_to_statistics.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
+│   │   └── README.md                          # Session 1 task descriptions & answers
+│   │
 │   └── session-02-mean-median-mode/           # Session 2: Mean, Median & Mode
 │       ├── session_02_mean_median_mode.ipynb  # Primary interactive notebook (All 5 tasks solved & executed)
 │       ├── playlist_stats.py                  # Task 1 Python script (explicitly requested)
@@ -54,6 +59,6 @@ To install any future libraries:
 
 ```powershell
 git add .
-git commit -m "feat: use notebook-first workflow with session 2 solutions"
+git commit -m "feat: complete Session 1 and Session 2 executed notebooks"
 git push origin main
 ```

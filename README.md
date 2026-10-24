@@ -30,9 +30,13 @@ ds-work/
 │   │   ├── session_03_variance_and_standard_deviation.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
 │   │   └── README.md                          # Session 3 task descriptions & answers
 │   │
-│   └── session-04-skewness-basic/             # Session 4: Skewness (Basic)
-│       ├── session_04_skewness_basic.ipynb    # Primary interactive notebook (All 4 tasks solved & executed)
-│       └── README.md                          # Session 4 task descriptions & answers
+│   ├── session-04-skewness-basic/             # Session 4: Skewness (Basic)
+│   │   ├── session_04_skewness_basic.ipynb    # Primary interactive notebook (All 4 tasks solved & executed)
+│   │   └── README.md                          # Session 4 task descriptions & answers
+│   │
+│   └── session-05-sampling/                   # Session 5: Sampling
+│       ├── session_05_sampling.ipynb          # Primary interactive notebook (All 5 tasks solved & executed)
+│       └── README.md                          # Session 5 task descriptions & answers
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 └── data/                                      # Shared raw and processed datasets
@@ -67,6 +71,6 @@ To install any future libraries:
 
 ```powershell
 git add .
-git commit -m "feat: complete Sessions 1, 2, 3, and 4 executed notebooks"
+git commit -m "feat: complete Sessions 1 through 5 executed notebooks"
 git push origin main
 ```

@@ -12,6 +12,7 @@ This directory stores all session assignments, exercises, and coursework submiss
 | **Session 2** | [Mean, Median & Mode](session-02-mean-median-mode/README.md) | [`session_02_mean_median_mode.ipynb`](session-02-mean-median-mode/session_02_mean_median_mode.ipynb) | ✅ Completed (Executed) |
 | **Session 3** | [Variance & Standard Deviation](session-03-variance-and-standard-deviation/README.md) | [`session_03_variance_and_standard_deviation.ipynb`](session-03-variance-and-standard-deviation/session_03_variance_and_standard_deviation.ipynb) | ✅ Completed (Executed) |
 | **Session 4** | [Skewness (Basic)](session-04-skewness-basic/README.md) | [`session_04_skewness_basic.ipynb`](session-04-skewness-basic/session_04_skewness_basic.ipynb) | ✅ Completed (Executed) |
+| **Session 5** | [Sampling](session-05-sampling/README.md) | [`session_05_sampling.ipynb`](session-05-sampling/session_05_sampling.ipynb) | ✅ Completed (Executed) |
 
 ---
 

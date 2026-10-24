@@ -12,6 +12,7 @@ This directory contains the complete coursework submissions, interactive Jupyter
 | **Session 2** | [Data Science Lifecycle](#session-2-data-science-lifecycle) | [`session_02_data_science_lifecycle.ipynb`](session_02_data_science_lifecycle.ipynb) | Problem Definition (Zomato), Web API Data Ingestion (`requests`), Spotify Genre Aggregations (`pandas`), BookMyShow Movie Visualizations (`matplotlib`), Advanced Feature Engineering. | ✅ Completed (Executed) |
 | **Git Fundamentals** | [Git Installation + Fundamentals](git-installation-fundamentals/README.md) | [`git_installation_fundamentals.ipynb`](git-installation-fundamentals/git_installation_fundamentals.ipynb) | Git CLI Verification, Global Identity, Local Repo Init (`InstaCloneRepo`), Public Cloning (`public-apis`), Semantic Commits (`playlist.txt`). | ✅ Completed (Executed) |
 | **Git & GitHub** | [Git & GitHub Collaboration](git-github/README.md) | [`git_github_assignment.ipynb`](git-github/git_github_assignment.ipynb) | Git CLI Verification, Local Repo Init, GitHub Remote Link (`foodie-favorites`), Team Collaboration Simulation & Issue Creation. | ✅ Completed (Executed) |
+| **Git Branching**    | [Git Branching & Collaboration](git-branching-collaboration/README.md) | [`git_branching_collaboration.ipynb`](git-branching-collaboration/git_branching_collaboration.ipynb) | Feature Branching, Non-Fast-Forward Merge, Conflict Generation/Resolution, Public Repo Fork & Upstream PR. | ✅ Completed (Executed) |
 | **Project Structure**| [Professional Project Structure](professional-project-structure/README.md) | [`professional_project_structure.ipynb`](professional-project-structure/professional_project_structure.ipynb) | DA Architecture (`insta-analytics`), ML Architecture (`ml-project`), Targeted `.gitignore`, Production README, Open-Source Audit (`prophet`). | ✅ Completed (Executed) |
 
 ---
@@ -27,6 +28,9 @@ Intro to ds/
 │   └── README.md                             # Step-by-step audit & solutions
 ├── git-github/                               # Git & GitHub module
 │   ├── git_github_assignment.ipynb           # Terminal execution & verification notebook
+│   └── README.md                             # Step-by-step audit & solutions
+├── git-branching-collaboration/              # Git Branching & Collaboration module
+│   ├── git_branching_collaboration.ipynb     # Execution & verification notebook
 │   └── README.md                             # Step-by-step audit & solutions
 ├── professional-project-structure/           # Professional Project Structure module
 │   ├── professional_project_structure.ipynb  # Execution & verification notebook

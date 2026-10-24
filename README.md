@@ -21,6 +21,10 @@ ds-work/
 ├── assignments/                               # Dedicated assignments directory
 │   ├── README.md                              # Assignments index and submission guide
 │   │
+│   ├── git-branching-collaboration/           # Git Branching & Collaboration Module
+│   │   ├── git_branching_collaboration.ipynb  # Execution & verification notebook
+│   │   └── README.md                          # Full solutions documentation & merge logs
+│   │
 │   ├── professional-project-structure/        # Professional Project Structure for DA/DS
 │   │   ├── professional_project_structure.ipynb # Execution & verification notebook
 │   │   └── README.md                          # Full solutions documentation & audit

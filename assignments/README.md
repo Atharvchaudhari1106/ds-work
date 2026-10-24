@@ -13,6 +13,7 @@ This directory stores all session assignments, exercises, and coursework submiss
 | **Session 3** | [Variance & Standard Deviation](session-03-variance-and-standard-deviation/README.md) | [`session_03_variance_and_standard_deviation.ipynb`](session-03-variance-and-standard-deviation/session_03_variance_and_standard_deviation.ipynb) | ✅ Completed (Executed) |
 | **Session 4** | [Skewness (Basic)](session-04-skewness-basic/README.md) | [`session_04_skewness_basic.ipynb`](session-04-skewness-basic/session_04_skewness_basic.ipynb) | ✅ Completed (Executed) |
 | **Session 5** | [Sampling](session-05-sampling/README.md) | [`session_05_sampling.ipynb`](session-05-sampling/session_05_sampling.ipynb) | ✅ Completed (Executed) |
+| **Session 6** | [Hypothesis Testing (Basic)](session-06-hypothesis-testing-basic/README.md) | [`session_06_hypothesis_testing_basic.ipynb`](session-06-hypothesis-testing-basic/session_06_hypothesis_testing_basic.ipynb) | ✅ Completed (Executed) |
 
 ---
 
@@ -21,5 +22,5 @@ This directory stores all session assignments, exercises, and coursework submiss
 - Each session notebook is self-contained with:
   - Formatted problem statements & statistical formulas.
   - Fully executed code cells with pre-rendered console output.
-  - Interactive pandas dataframes and embedded matplotlib visualizations.
+  - Interactive pandas dataframes, SciPy tests, and embedded matplotlib visualizations.
 - Can be uploaded or viewed directly on GitHub or Google Colab without needing re-execution.

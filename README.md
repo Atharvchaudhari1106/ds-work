@@ -9,7 +9,7 @@ Welcome to your central Data Science repository! This workspace is configured fo
 ```text
 ds-work/
 ├── .gitignore                                 # Ignores .venv, cache, and OS files
-├── requirements.txt                           # Python project dependencies (pandas, numpy, matplotlib)
+├── requirements.txt                           # Python project dependencies (pandas, numpy, scipy, matplotlib)
 ├── README.md                                  # Repository overview and setup guide
 │
 ├── assignments/                               # Dedicated assignments directory
@@ -34,9 +34,13 @@ ds-work/
 │   │   ├── session_04_skewness_basic.ipynb    # Primary interactive notebook (All 4 tasks solved & executed)
 │   │   └── README.md                          # Session 4 task descriptions & answers
 │   │
-│   └── session-05-sampling/                   # Session 5: Sampling
-│       ├── session_05_sampling.ipynb          # Primary interactive notebook (All 5 tasks solved & executed)
-│       └── README.md                          # Session 5 task descriptions & answers
+│   ├── session-05-sampling/                   # Session 5: Sampling
+│   │   ├── session_05_sampling.ipynb          # Primary interactive notebook (All 5 tasks solved & executed)
+│   │   └── README.md                          # Session 5 task descriptions & answers
+│   │
+│   └── session-06-hypothesis-testing-basic/   # Session 6: Hypothesis Testing (Basic)
+│       ├── session_06_hypothesis_testing_basic.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
+│       └── README.md                          # Session 6 task descriptions & answers
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 └── data/                                      # Shared raw and processed datasets
@@ -46,7 +50,7 @@ ds-work/
 
 ## 🛠️ Environment Setup
 
-A dedicated Python virtual environment `.venv` is configured with `pandas`, `numpy`, and `matplotlib`.
+A dedicated Python virtual environment `.venv` is configured with `pandas`, `numpy`, `scipy`, and `matplotlib`.
 
 ### Activate the environment:
 **Windows PowerShell:**
@@ -71,6 +75,6 @@ To install any future libraries:
 
 ```powershell
 git add .
-git commit -m "feat: complete Sessions 1 through 5 executed notebooks"
+git commit -m "feat: complete Sessions 1 through 6 executed notebooks"
 git push origin main
 ```

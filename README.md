@@ -19,12 +19,16 @@ ds-work/
 │   │   ├── session_01_intro_to_statistics.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
 │   │   └── README.md                          # Session 1 task descriptions & answers
 │   │
-│   └── session-02-mean-median-mode/           # Session 2: Mean, Median & Mode
-│       ├── session_02_mean_median_mode.ipynb  # Primary interactive notebook (All 5 tasks solved & executed)
-│       ├── playlist_stats.py                  # Task 1 Python script (explicitly requested)
-│       ├── README.md                          # Session 2 task descriptions & answers
-│       └── data/
-│           └── ipl_player_runs.csv            # Real-world dataset for Task 5
+│   ├── session-02-mean-median-mode/           # Session 2: Mean, Median & Mode
+│   │   ├── session_02_mean_median_mode.ipynb  # Primary interactive notebook (All 5 tasks solved & executed)
+│   │   ├── playlist_stats.py                  # Task 1 Python script (explicitly requested)
+│   │   ├── README.md                          # Session 2 task descriptions & answers
+│   │   └── data/
+│   │       └── ipl_player_runs.csv            # Real-world dataset for Task 5
+│   │
+│   └── session-03-variance-and-standard-deviation/ # Session 3: Variance & Standard Deviation
+│       ├── session_03_variance_and_standard_deviation.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
+│       └── README.md                          # Session 3 task descriptions & answers
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 └── data/                                      # Shared raw and processed datasets
@@ -59,6 +63,6 @@ To install any future libraries:
 
 ```powershell
 git add .
-git commit -m "feat: complete Session 1 and Session 2 executed notebooks"
+git commit -m "feat: complete Session 1, Session 2, and Session 3 executed notebooks"
 git push origin main
 ```

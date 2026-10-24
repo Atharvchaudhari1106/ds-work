@@ -10,6 +10,7 @@ This directory contains the complete coursework submissions, interactive Jupyter
 | :--- | :--- | :--- | :--- | :--- |
 | **Session 1** | [What is Data Science?](#session-1-what-is-data-science) | [`session_01_what_is_data_science.ipynb`](session_01_what_is_data_science.ipynb) | Daily App Optimization, 3 Pillars of Data Science (no healthcare), Spotify Recommender Scenario, Transportation Innovation (Uber DeepETA & H3). | ✅ Completed (Executed) |
 | **Session 2** | [Data Science Lifecycle](#session-2-data-science-lifecycle) | [`session_02_data_science_lifecycle.ipynb`](session_02_data_science_lifecycle.ipynb) | Problem Definition (Zomato), Web API Data Ingestion (`requests`), Spotify Genre Aggregations (`pandas`), BookMyShow Movie Visualizations (`matplotlib`), Advanced Feature Engineering. | ✅ Completed (Executed) |
+| **Git Fundamentals** | [Git Installation + Fundamentals](git-installation-fundamentals/README.md) | [`git_installation_fundamentals.ipynb`](git-installation-fundamentals/git_installation_fundamentals.ipynb) | Git CLI Verification, Global Identity, Local Repo Init (`InstaCloneRepo`), Public Cloning (`public-apis`), Semantic Commits (`playlist.txt`). | ✅ Completed (Executed) |
 | **Git & GitHub** | [Git & GitHub Collaboration](git-github/README.md) | [`git_github_assignment.ipynb`](git-github/git_github_assignment.ipynb) | Git CLI Verification, Local Repo Init, GitHub Remote Link (`foodie-favorites`), Team Collaboration Simulation & Issue Creation. | ✅ Completed (Executed) |
 
 ---
@@ -20,6 +21,9 @@ Intro to ds/
 ├── README.md                                 # Complete track overview & task solutions
 ├── session_01_what_is_data_science.ipynb     # Session 1 executed notebook (Tasks 1-4)
 ├── session_02_data_science_lifecycle.ipynb   # Session 2 executed notebook (Tasks 1-5)
+├── git-installation-fundamentals/            # Git Installation + Fundamentals module
+│   ├── git_installation_fundamentals.ipynb  # Execution & verification notebook
+│   └── README.md                             # Step-by-step audit & solutions
 ├── git-github/                               # Git & GitHub module
 │   ├── git_github_assignment.ipynb           # Terminal execution & verification notebook
 │   └── README.md                             # Step-by-step audit & solutions

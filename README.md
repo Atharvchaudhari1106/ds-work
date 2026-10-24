@@ -21,6 +21,10 @@ ds-work/
 ├── assignments/                               # Dedicated assignments directory
 │   ├── README.md                              # Assignments index and submission guide
 │   │
+│   ├── git-installation-fundamentals/         # Git Installation + Fundamentals Module
+│   │   ├── git_installation_fundamentals.ipynb# Execution & verification notebook
+│   │   └── README.md                          # Full solutions documentation & CLI logs
+│   │
 │   ├── git-github/                            # Git & GitHub Module
 │   │   ├── git_github_assignment.ipynb        # Terminal execution & verification notebook
 │   │   └── README.md                          # Full solutions documentation & GitHub links

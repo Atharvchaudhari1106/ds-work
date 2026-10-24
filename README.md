@@ -12,16 +12,19 @@ ds-work/
 ├── requirements.txt                           # Python project dependencies (pandas, numpy, scipy, matplotlib)
 ├── README.md                                  # Repository overview and setup guide
 │
-├── Intro to ds/                               # Session 1: What is Data Science? (Intro to DS)
-│   ├── session_01_what_is_data_science.ipynb  # Primary interactive notebook (All 4 tasks solved & executed)
-│   └── README.md                              # Session 1 task solutions & complete documentation
+├── Intro to ds/                               # Intro to Data Science Foundation Track
+│   ├── session_01_what_is_data_science.ipynb  # Session 1: What is Data Science? (All 4 tasks executed)
+│   ├── session_02_data_science_lifecycle.ipynb# Session 2: Data Science Lifecycle (All 5 tasks executed)
+│   ├── README.md                              # Complete course track documentation
+│   └── data/                                  # Datasets (spotify_mini.csv, bookmyshow_movies.csv)
 │
 ├── assignments/                               # Dedicated assignments directory
 │   ├── README.md                              # Assignments index and submission guide
 │   │
-│   ├── Intro to ds/                           # Session 1: What is Data Science? (Intro to DS)
-│   │   ├── session_01_what_is_data_science.ipynb # Fully pre-executed solutions
-│   │   └── README.md                          # Full solutions documentation
+│   ├── session-02-data-science-lifecycle/     # Session 2: Data Science Lifecycle
+│   │   ├── session_02_data_science_lifecycle.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
+│   │   ├── README.md                          # Full solutions documentation
+│   │   └── data/                              # Supporting datasets
 │   │
 │   ├── session-01-intro-to-statistics/        # Session 1: Introduction to Statistics in Data Science
 │   │   ├── session_01_intro_to_statistics.ipynb # Primary interactive notebook (All 4 tasks solved & executed)

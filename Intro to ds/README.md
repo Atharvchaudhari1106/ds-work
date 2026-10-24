@@ -10,6 +10,7 @@ This directory contains the complete coursework submissions, interactive Jupyter
 | :--- | :--- | :--- | :--- | :--- |
 | **Session 1** | [What is Data Science?](#session-1-what-is-data-science) | [`session_01_what_is_data_science.ipynb`](session_01_what_is_data_science.ipynb) | Daily App Optimization, 3 Pillars of Data Science (no healthcare), Spotify Recommender Scenario, Transportation Innovation (Uber DeepETA & H3). | ✅ Completed (Executed) |
 | **Session 2** | [Data Science Lifecycle](#session-2-data-science-lifecycle) | [`session_02_data_science_lifecycle.ipynb`](session_02_data_science_lifecycle.ipynb) | Problem Definition (Zomato), Web API Data Ingestion (`requests`), Spotify Genre Aggregations (`pandas`), BookMyShow Movie Visualizations (`matplotlib`), Advanced Feature Engineering. | ✅ Completed (Executed) |
+| **Git & GitHub** | [Git & GitHub Collaboration](git-github/README.md) | [`git_github_assignment.ipynb`](git-github/git_github_assignment.ipynb) | Git CLI Verification, Local Repo Init, GitHub Remote Link (`foodie-favorites`), Team Collaboration Simulation & Issue Creation. | ✅ Completed (Executed) |
 
 ---
 
@@ -19,6 +20,9 @@ Intro to ds/
 ├── README.md                                 # Complete track overview & task solutions
 ├── session_01_what_is_data_science.ipynb     # Session 1 executed notebook (Tasks 1-4)
 ├── session_02_data_science_lifecycle.ipynb   # Session 2 executed notebook (Tasks 1-5)
+├── git-github/                               # Git & GitHub module
+│   ├── git_github_assignment.ipynb           # Terminal execution & verification notebook
+│   └── README.md                             # Step-by-step audit & solutions
 └── data/
     ├── spotify_mini.csv                      # Simulated 12-track Spotify dataset
     └── bookmyshow_movies.csv                 # 12-movie BookMyShow dataset across genres

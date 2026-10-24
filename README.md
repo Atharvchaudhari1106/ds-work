@@ -21,6 +21,10 @@ ds-work/
 ├── assignments/                               # Dedicated assignments directory
 │   ├── README.md                              # Assignments index and submission guide
 │   │
+│   ├── git-github/                            # Git & GitHub Module
+│   │   ├── git_github_assignment.ipynb        # Terminal execution & verification notebook
+│   │   └── README.md                          # Full solutions documentation & GitHub links
+│   │
 │   ├── session-02-data-science-lifecycle/     # Session 2: Data Science Lifecycle
 │   │   ├── session_02_data_science_lifecycle.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
 │   │   ├── README.md                          # Full solutions documentation

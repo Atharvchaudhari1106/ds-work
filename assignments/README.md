@@ -10,6 +10,7 @@ This directory stores all session assignments, exercises, and coursework submiss
 | :--- | :--- | :--- | :--- |
 | **Intro to DS (S1)** | [What is Data Science?](Intro%20to%20ds/README.md) | [`session_01_what_is_data_science.ipynb`](Intro%20to%20ds/session_01_what_is_data_science.ipynb) | ✅ Completed (Executed) |
 | **Intro to DS (S2)** | [Data Science Lifecycle](session-02-data-science-lifecycle/README.md) | [`session_02_data_science_lifecycle.ipynb`](session-02-data-science-lifecycle/session_02_data_science_lifecycle.ipynb) | ✅ Completed (Executed) |
+| **Git & GitHub** | [Git & GitHub Collaboration](git-github/README.md) | [`git_github_assignment.ipynb`](git-github/git_github_assignment.ipynb) | ✅ Completed (Executed) |
 | **Session 1** | [Introduction to Statistics in Data Science](session-01-intro-to-statistics/README.md) | [`session_01_intro_to_statistics.ipynb`](session-01-intro-to-statistics/session_01_intro_to_statistics.ipynb) | ✅ Completed (Executed) |
 | **Session 2** | [Mean, Median & Mode](session-02-mean-median-mode/README.md) | [`session_02_mean_median_mode.ipynb`](session-02-mean-median-mode/session_02_mean_median_mode.ipynb) | ✅ Completed (Executed) |
 | **Session 3** | [Variance & Standard Deviation](session-03-variance-and-standard-deviation/README.md) | [`session_03_variance_and_standard_deviation.ipynb`](session-03-variance-and-standard-deviation/session_03_variance_and_standard_deviation.ipynb) | ✅ Completed (Executed) |

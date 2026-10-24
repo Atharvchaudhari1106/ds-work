@@ -12,8 +12,16 @@ ds-work/
 ├── requirements.txt                           # Python project dependencies (pandas, numpy, scipy, matplotlib)
 ├── README.md                                  # Repository overview and setup guide
 │
+├── Intro to ds/                               # Session 1: What is Data Science? (Intro to DS)
+│   ├── session_01_what_is_data_science.ipynb  # Primary interactive notebook (All 4 tasks solved & executed)
+│   └── README.md                              # Session 1 task solutions & complete documentation
+│
 ├── assignments/                               # Dedicated assignments directory
 │   ├── README.md                              # Assignments index and submission guide
+│   │
+│   ├── Intro to ds/                           # Session 1: What is Data Science? (Intro to DS)
+│   │   ├── session_01_what_is_data_science.ipynb # Fully pre-executed solutions
+│   │   └── README.md                          # Full solutions documentation
 │   │
 │   ├── session-01-intro-to-statistics/        # Session 1: Introduction to Statistics in Data Science
 │   │   ├── session_01_intro_to_statistics.ipynb # Primary interactive notebook (All 4 tasks solved & executed)

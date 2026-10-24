@@ -21,6 +21,10 @@ ds-work/
 ├── assignments/                               # Dedicated assignments directory
 │   ├── README.md                              # Assignments index and submission guide
 │   │
+│   ├── professional-project-structure/        # Professional Project Structure for DA/DS
+│   │   ├── professional_project_structure.ipynb # Execution & verification notebook
+│   │   └── README.md                          # Full solutions documentation & audit
+│   │
 │   ├── git-installation-fundamentals/         # Git Installation + Fundamentals Module
 │   │   ├── git_installation_fundamentals.ipynb# Execution & verification notebook
 │   │   └── README.md                          # Full solutions documentation & CLI logs

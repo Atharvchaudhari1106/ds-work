@@ -1,0 +1,11 @@
+movie_id,title,genre,release_year,imdb_score,vote_count,bayesian_weighted_score,normalized_score
+1,The Dark Knight,Action / Crime,2008,9.0,2800000,9.0,0.973
+2,Inception,Sci-Fi / Action,2010,8.8,2500000,8.8,0.699
+3,Interstellar,Sci-Fi / Drama,2014,8.7,2000000,8.7,0.562
+4,12th Fail,Biography / Drama,2023,9.1,120000,9.02,1.0
+5,3 Idiots,Comedy / Drama,2009,8.4,420000,8.41,0.164
+6,Dangal,Action / Biography,2016,8.3,210000,8.34,0.068
+7,Kalki 2898 AD,Sci-Fi / Mythology,2024,8.2,95000,8.29,0.0
+8,Manjummel Boys,Survival / Thriller,2024,8.6,78000,8.61,0.438
+9,Stree 2,Horror / Comedy,2024,8.4,65000,8.47,0.247
+10,Oppenheimer,Biography / Drama,2023,8.9,780000,8.89,0.822

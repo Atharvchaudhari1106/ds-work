@@ -1,0 +1,84 @@
+================================================================================
+TOPS TECHNOLOGIES - DATA SCIENCE ASSESSMENT M2-A1
+SECTION B: TASK 1 - FOOD DELIVERY PROJECT REPOSITORY SETUP & GIT LOG
+================================================================================
+
+COMMAND SEQUENCE:
+--------------------------------------------------------------------------------
+# 1. Create project folder and initialize Git repository
+mkdir food-delivery-pipeline
+cd food-delivery-pipeline
+git init
+git branch -M main
+
+# 2. Configure identity
+git config user.name "Data Scientist"
+git config user.email "datascientist@assessment.com"
+
+# 3. Create standard modular directory structure with placeholder .gitkeep files
+mkdir src data/raw data/processed docs tests
+touch src/.gitkeep data/raw/.gitkeep data/processed/.gitkeep docs/.gitkeep tests/.gitkeep
+
+# 4. Stage and commit initial project structure
+git add .
+git commit -m "feat: initialise project structure"
+
+# 5. Create .gitignore to ignore environments, bytecode, logs, and secret configs
+cat << 'EOF' > .gitignore
+# Python virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+*.log
+logs/
+
+# Local config and secrets files
+config.ini
+secrets.json
+.env
+EOF
+
+# 6. Create portfolio-ready README.md
+cat << 'EOF' > README.md
+# Food Delivery Demand Analytics
+...
+EOF
+
+# 7. Stage and commit README.md and .gitignore
+git add .gitignore README.md
+git commit -m "docs: add README and .gitignore"
+
+# 8. Test .gitignore functionality by creating one ignored file and one tracked file
+echo "Sample debug log entries" > notes.log
+echo "order_id,restaurant_name,amount" > data/raw/orders_sample.txt
+
+# 9. Verify .gitignore behavior with git status
+git status
+
+--------------------------------------------------------------------------------
+TERMINAL EXECUTION LOG:
+--------------------------------------------------------------------------------
+PS C:\Users\gadhi\OneDrive\Desktop\assessment\food-delivery-pipeline> git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	data/raw/orders_sample.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+--------------------------------------------------------------------------------
+VERIFICATION CONFIRMATION:
+--------------------------------------------------------------------------------
+[CONFIRMED] 'notes.log' is matched by '*.log' rule in .gitignore and does NOT appear in untracked files.
+[CONFIRMED] 'data/raw/orders_sample.txt' is NOT ignored and appears under Untracked files as expected.
+Repository structure and .gitignore validation successfully verified.
+================================================================================

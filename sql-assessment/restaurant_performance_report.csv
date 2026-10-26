@@ -1,0 +1,10 @@
+restaurant_id,restaurant_name,category,city,total_orders,total_revenue,avg_rating,revenue_rank
+7,Sushi Bay,Japanese,Bengaluru,4,4780.0,4.8,1
+2,Pizza Roma,Italian,Bengaluru,4,2970.0,4.33,2
+1,Spice Symphony,Indian,Mumbai,4,2960.0,4.75,3
+4,Dragon Wok,Chinese,Mumbai,4,2900.0,4.25,4
+6,Curry House,Indian,Delhi,3,2680.0,4.5,5
+8,Pasta Bella,Italian,Pune,3,1720.0,4.2,6
+5,Taco Fiesta,Mexican,Pune,3,1610.0,4.17,7
+3,Burger Garage,Burgers,Delhi,3,1020.0,3.9,8
+9,The Green Bowl,Healthy/Salad,Mumbai,0,0.0,0.0,9

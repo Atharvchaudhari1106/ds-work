@@ -98,8 +98,31 @@ ds-work/
 │       └── README.md                          # Session 12 task descriptions & answers
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
-└── data/                                      # Shared raw and processed datasets
+├── data/                                      # Shared raw and processed datasets
+│
+├── sql-assessment/                            # TOPS Technologies Data Science Assessment M4-A1 (Modules 3-4)
+├── food-delivery-pipeline/                    # Food Delivery Demand Pipeline Assessment M2-A1
+├── my-movie-ratings/                          # Movie Ratings Analysis & Data Science Portfolio Project
+├── foodie-favorites/                          # Foodie Favorites & Music Recommendation Project
+├── python-module-6/                           # Advanced Python Programming, REST APIs & Case Studies
+├── music-app/                                 # Fullstack Music Player & Interactive Web Application
+└── Zomato-Cleaning-and-Visualization/         # Zomato Restaurant Dataset Cleaning & Spatial EDA
 ```
+
+---
+
+## 🚀 Projects & Module Portfolios
+
+| Folder | Topic / Focus | Core Technologies |
+| :--- | :--- | :--- |
+| [`sql-assessment/`](./sql-assessment/) | TOPS Technologies Data Science M4-A1 Assessment | SQLite, Pandas, NumPy, Matplotlib, Seaborn |
+| [`food-delivery-pipeline/`](./food-delivery-pipeline/) | Food Delivery Demand & Pipeline M2-A1 Assessment | Python, Git Flow, OOP, Functional Tools |
+| [`my-movie-ratings/`](./my-movie-ratings/) | Movie Ratings Analysis & Portfolio Page | Jupyter Notebook, Pandas, Data Viz, Git LFS |
+| [`foodie-favorites/`](./foodie-favorites/) | Foodie Favorites & Curated Playlists | Markdown, Data Aggregation |
+| [`python-module-6/`](./python-module-6/) | Core & Advanced Python, REST APIs, Crypto Tracker | Python 3, `requests`, `requests.Session()` |
+| [`music-app/`](./music-app/) | Interactive Music Application & Server | Node.js, Vite, JavaScript, HTML5/CSS3 |
+| [`Zomato-Cleaning-and-Visualization/`](./Zomato-Cleaning-and-Visualization/) | Zomato Dataset Cleaning & Spatial Mapping | Pandas, Seaborn, Folium / Geopandas |
+
 
 ---
 

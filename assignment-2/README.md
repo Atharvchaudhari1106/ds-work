@@ -15,6 +15,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | **Session 3** | [INSERT, UPDATE & DELETE](session-03-insert-update-and-delete/README.md) | [`session_03_insert_update_and_delete.ipynb`](session-03-insert-update-and-delete/session_03_insert_update_and_delete.ipynb) <br> [`solution.sql`](session-03-insert-update-and-delete/solution.sql) | ✅ Completed (Executed) |
 | **Session 4** | [SELECT Statement Basics](session-04-select-statement-basics/README.md) | [`session_04_select_statement_basics.ipynb`](session-04-select-statement-basics/session_04_select_statement_basics.ipynb) <br> [`solution.sql`](session-04-select-statement-basics/solution.sql) | ✅ Completed (Executed) |
 | **Session 5** | [WHERE Clause + LIKE](session-05-where-clause-and-like/README.md) | [`session_05_where_clause_and_like.ipynb`](session-05-where-clause-and-like/session_05_where_clause_and_like.ipynb) <br> [`solution.sql`](session-05-where-clause-and-like/solution.sql) | ✅ Completed (Executed) |
+| **Session 6** | [ORDER BY + Sorting](session-06-order-by-and-sorting/README.md) | [`session_06_order_by_and_sorting.ipynb`](session-06-order-by-and-sorting/session_06_order_by_and_sorting.ipynb) <br> [`solution.sql`](session-06-order-by-and-sorting/solution.sql) | ✅ Completed (Executed) |
 
 ---
 
@@ -52,12 +53,19 @@ assignment-2/
 │   ├── music_and_food.db                      # Pre-built SQLite database
 │   └── README.md                              # Complete task walkthrough & query debugging guide
 │
-└── session-05-where-clause-and-like/          # Session 5: WHERE Clause + LIKE Operator
-    ├── session_05_where_clause_and_like.ipynb # Interactive executed notebook (Tasks 1-5)
-    ├── solution.sql                           # Production SQL script (LIKE, BETWEEN, IN)
+├── session-05-where-clause-and-like/          # Session 5: WHERE Clause + LIKE Operator
+│   ├── session_05_where_clause_and_like.ipynb # Interactive executed notebook (Tasks 1-5)
+│   ├── solution.sql                           # Production SQL script (LIKE, BETWEEN, IN)
+│   ├── setup_and_verify.py                    # Automated test runner
+│   ├── restaurants.db                         # Pre-built SQLite database
+│   └── README.md                              # Complete task walkthrough & operator guide
+│
+└── session-06-order-by-and-sorting/           # Session 6: ORDER BY + Sorting
+    ├── session_06_order_by_and_sorting.ipynb  # Interactive executed notebook (Tasks 1-5)
+    ├── solution.sql                           # Production SQL script (ASC, DESC, Multi-Column)
     ├── setup_and_verify.py                    # Automated test runner
-    ├── restaurants.db                         # Pre-built SQLite database
-    └── README.md                              # Complete task walkthrough & operator guide
+    ├── sorting_app.db                         # Pre-built SQLite database
+    └── README.md                              # Complete task walkthrough & sorting guide
 ```
 
 ---
@@ -81,4 +89,7 @@ python assignment-2/session-04-select-statement-basics/setup_and_verify.py
 
 # Verify Session 5
 python assignment-2/session-05-where-clause-and-like/setup_and_verify.py
+
+# Verify Session 6
+python assignment-2/session-06-order-by-and-sorting/setup_and_verify.py
 ```

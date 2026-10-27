@@ -122,11 +122,17 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & debugging guide
 │   │
-│   └── session-05-where-clause-and-like/      # Session 5: WHERE Clause + LIKE Operator
-│       ├── session_05_where_clause_and_like.ipynb # Executed interactive notebook
-│       ├── solution.sql                       # Complete SQL script (LIKE, BETWEEN, IN)
+│   ├── session-05-where-clause-and-like/      # Session 5: WHERE Clause + LIKE Operator
+│   │   ├── session_05_where_clause_and_like.ipynb # Executed interactive notebook
+│   │   ├── solution.sql                       # Complete SQL script (LIKE, BETWEEN, IN)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & operator guide
+│   │
+│   └── session-06-order-by-and-sorting/       # Session 6: ORDER BY + Sorting
+│       ├── session_06_order_by_and_sorting.ipynb # Executed interactive notebook
+│       ├── solution.sql                       # Complete SQL script (ASC, DESC, Multi-Column)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & operator guide
+│       └── README.md                          # Comprehensive session walkthrough & sorting guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

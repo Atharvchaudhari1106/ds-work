@@ -190,11 +190,17 @@ ds-work/
 │   │   ├── food_orders.csv                    # Food delivery orders raw dataset
 │   │   └── README.md                          # Comprehensive session walkthrough & sales analytics guide
 │   │
-│   └── session-17-sql-project-hr-analysis/    # Session 17: SQL Project - HR Analysis
-│       ├── session_17_sql_project_hr_analysis.ipynb # Executed interactive notebook (Tasks 1-5)
-│       ├── solution.sql                       # Complete SQL script (Restaurant, Review, Joins, Window)
+│   ├── session-17-sql-project-hr-analysis/    # Session 17: SQL Project - HR Analysis
+│   │   ├── session_17_sql_project_hr_analysis.ipynb # Executed interactive notebook (Tasks 1-5)
+│   │   ├── solution.sql                       # Complete SQL script (Restaurant, Review, Joins, Window)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & review analytics guide
+│   │
+│   └── session-18-interview-questions-final-revision/ # Session 18: Interview Questions + Final Revision
+│       ├── session_18_interview_questions_final_revision.ipynb # Executed interactive notebook (Tasks 1-5)
+│       ├── solution.sql                       # Complete SQL script (Aggregation, Joins, Subqueries, Windows, Indexing)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & review analytics guide
+│       └── README.md                          # Comprehensive session walkthrough & interview revision guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

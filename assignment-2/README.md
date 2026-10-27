@@ -26,6 +26,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | **Session 15** | [SQL + Python Integration](session-15-sql-python-integration/README.md) | [`session_15_sql_python_integration.ipynb`](session-15-sql-python-integration/session_15_sql_python_integration.ipynb) <br> [`daily_summary.py`](session-15-sql-python-integration/daily_summary.py) <br> [`solution.sql`](session-15-sql-python-integration/solution.sql) | ✅ Completed (Executed) |
 | **Session 16** | [SQL Project – Sales Analysis](session-16-sql-project-sales-analysis/README.md) | [`session_16_sql_project_sales_analysis.ipynb`](session-16-sql-project-sales-analysis/session_16_sql_project_sales_analysis.ipynb) <br> [`solution.sql`](session-16-sql-project-sales-analysis/solution.sql) <br> [`food_orders.csv`](session-16-sql-project-sales-analysis/food_orders.csv) | ✅ Completed (Executed) |
 | **Session 17** | [SQL Project – HR Analysis](session-17-sql-project-hr-analysis/README.md) | [`session_17_sql_project_hr_analysis.ipynb`](session-17-sql-project-hr-analysis/session_17_sql_project_hr_analysis.ipynb) <br> [`solution.sql`](session-17-sql-project-hr-analysis/solution.sql) | ✅ Completed (Executed) |
+| **Session 18** | [Interview Questions + Final Revision](session-18-interview-questions-final-revision/README.md) | [`session_18_interview_questions_final_revision.ipynb`](session-18-interview-questions-final-revision/session_18_interview_questions_final_revision.ipynb) <br> [`solution.sql`](session-18-interview-questions-final-revision/solution.sql) | ✅ Completed (Executed) |
 
 ---
 
@@ -143,12 +144,19 @@ assignment-2/
 │   ├── sales_analysis.db                      # Pre-built SQLite database
 │   └── README.md                              # Complete task walkthrough & sales analytics guide
 │
-└── session-17-sql-project-hr-analysis/       # Session 17: SQL Project - HR Analysis
-    ├── session_17_sql_project_hr_analysis.ipynb # Interactive executed notebook (Tasks 1-5)
-    ├── solution.sql                           # Production SQL script (Restaurant, Review, Joins, Window)
+├── session-17-sql-project-hr-analysis/       # Session 17: SQL Project - HR Analysis
+│   ├── session_17_sql_project_hr_analysis.ipynb # Interactive executed notebook (Tasks 1-5)
+│   ├── solution.sql                           # Production SQL script (Restaurant, Review, Joins, Window)
+│   ├── setup_and_verify.py                    # Automated test runner
+│   ├── restaurant_analytics.db                # Pre-built SQLite database
+│   └── README.md                              # Complete task walkthrough & review analytics guide
+│
+└── session-18-interview-questions-final-revision/ # Session 18: Interview Questions + Final Revision
+    ├── session_18_interview_questions_final_revision.ipynb # Interactive executed notebook (Tasks 1-5)
+    ├── solution.sql                           # Production SQL script (Aggregation, Joins, Subqueries, Windows, Indexing)
     ├── setup_and_verify.py                    # Automated test runner
-    ├── restaurant_analytics.db                # Pre-built SQLite database
-    └── README.md                              # Complete task walkthrough & review analytics guide
+    ├── interview_revision.db                  # Pre-built SQLite database
+    └── README.md                              # Complete task walkthrough & interview revision guide
 ```
 
 ---
@@ -205,4 +213,7 @@ python assignment-2/session-16-sql-project-sales-analysis/setup_and_verify.py
 
 # Verify Session 17
 python assignment-2/session-17-sql-project-hr-analysis/setup_and_verify.py
+
+# Verify Session 18
+python assignment-2/session-18-interview-questions-final-revision/setup_and_verify.py
 ```

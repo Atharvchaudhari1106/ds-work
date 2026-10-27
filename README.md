@@ -103,6 +103,13 @@ ds-work/
 │   │   ├── solution.sql                       # Complete SQL script (MySQL & PostgreSQL compatible)
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & AI answers
+│   │
+│   ├── session-02-database-setup-and-create-table/ # Session 2: Database Setup + CREATE TABLE
+│   │   ├── session_02_database_setup_and_create_table.ipynb # Executed interactive notebook
+│   │   ├── solution.sql                       # Complete SQL script (restaurants & users schemas)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & error guide
+│   │
 │   └── session-04-select-statement-basics/    # Session 4: SELECT Statement Basics
 │       ├── session_04_select_statement_basics.ipynb # Executed interactive notebook
 │       ├── solution.sql                       # Complete SQL script (LIMIT, DISTINCT, Aliases)

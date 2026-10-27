@@ -17,6 +17,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | **Session 5** | [WHERE Clause + LIKE](session-05-where-clause-and-like/README.md) | [`session_05_where_clause_and_like.ipynb`](session-05-where-clause-and-like/session_05_where_clause_and_like.ipynb) <br> [`solution.sql`](session-05-where-clause-and-like/solution.sql) | ✅ Completed (Executed) |
 | **Session 6** | [ORDER BY + Sorting](session-06-order-by-and-sorting/README.md) | [`session_06_order_by_and_sorting.ipynb`](session-06-order-by-and-sorting/session_06_order_by_and_sorting.ipynb) <br> [`solution.sql`](session-06-order-by-and-sorting/solution.sql) | ✅ Completed (Executed) |
 | **Session 8** | [GROUP BY + HAVING](session-08-group-by-and-having/README.md) | [`session_08_group_by_and_having.ipynb`](session-08-group-by-and-having/session_08_group_by_and_having.ipynb) <br> [`solution.sql`](session-08-group-by-and-having/solution.sql) | ✅ Completed (Executed) |
+| **Session 9** | [JOINS - Part 1](session-09-joins-part-1/README.md) | [`session_09_joins_part_1.ipynb`](session-09-joins-part-1/session_09_joins_part_1.ipynb) <br> [`solution.sql`](session-09-joins-part-1/solution.sql) | ✅ Completed (Executed) |
 
 ---
 
@@ -68,12 +69,19 @@ assignment-2/
 │   ├── sorting_app.db                         # Pre-built SQLite database
 │   └── README.md                              # Complete task walkthrough & sorting guide
 │
-└── session-08-group-by-and-having/            # Session 8: GROUP BY + HAVING
-    ├── session_08_group_by_and_having.ipynb   # Interactive executed notebook (Tasks 1-5)
-    ├── solution.sql                           # Production SQL script (GROUP BY, HAVING, WHERE vs HAVING)
+├── session-08-group-by-and-having/            # Session 8: GROUP BY + HAVING
+│   ├── session_08_group_by_and_having.ipynb   # Interactive executed notebook (Tasks 1-5)
+│   ├── solution.sql                           # Production SQL script (GROUP BY, HAVING, WHERE vs HAVING)
+│   ├── setup_and_verify.py                    # Automated test runner
+│   ├── orders.db                              # Pre-built SQLite database
+│   └── README.md                              # Complete task walkthrough & aggregation guide
+│
+└── session-09-joins-part-1/                   # Session 9: JOINS - Part 1
+    ├── session_09_joins_part_1.ipynb          # Interactive executed notebook (Tasks 1-5)
+    ├── solution.sql                           # Production SQL script (INNER, LEFT, RIGHT JOIN, Spotify)
     ├── setup_and_verify.py                    # Automated test runner
-    ├── orders.db                              # Pre-built SQLite database
-    └── README.md                              # Complete task walkthrough & aggregation guide
+    ├── zomato_joins.db                        # Pre-built SQLite database
+    └── README.md                              # Complete task walkthrough & join semantics guide
 ```
 
 ---
@@ -103,4 +111,7 @@ python assignment-2/session-06-order-by-and-sorting/setup_and_verify.py
 
 # Verify Session 8
 python assignment-2/session-08-group-by-and-having/setup_and_verify.py
+
+# Verify Session 9
+python assignment-2/session-09-joins-part-1/setup_and_verify.py
 ```

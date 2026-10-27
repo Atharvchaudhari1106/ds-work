@@ -134,11 +134,17 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & sorting guide
 │   │
-│   └── session-08-group-by-and-having/        # Session 8: GROUP BY + HAVING
-│       ├── session_08_group_by_and_having.ipynb # Executed interactive notebook
-│       ├── solution.sql                       # Complete SQL script (GROUP BY, HAVING, Aggregations)
+│   ├── session-08-group-by-and-having/        # Session 8: GROUP BY + HAVING
+│   │   ├── session_08_group_by_and_having.ipynb # Executed interactive notebook
+│   │   ├── solution.sql                       # Complete SQL script (GROUP BY, HAVING, Aggregations)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & aggregation guide
+│   │
+│   └── session-09-joins-part-1/               # Session 9: JOINS - Part 1
+│       ├── session_09_joins_part_1.ipynb      # Executed interactive notebook (INNER, LEFT, RIGHT JOIN)
+│       ├── solution.sql                       # Complete SQL script (Restaurants & Dishes, Spotify scenario)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & aggregation guide
+│       └── README.md                          # Comprehensive session walkthrough & join semantics guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

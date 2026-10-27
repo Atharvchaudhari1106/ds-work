@@ -92,21 +92,21 @@ ds-work/
 │   ├── session-11-vectors-and-matrices-basic/ # Session 11: Vectors & Matrices (Basic)
 │   │   ├── session_11_vectors_and_matrices_basic.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
 │   │   └── README.md                          # Session 11 task descriptions & answers
-│   │
-│   ├── session-12-matrix-multiplication-linear-regression/ # Session 12: Matrix Multiplication & Linear Regression
-│   │   ├── session_12_matrix_multiplication_linear_regression.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
-│   │   └── README.md                          # Session 12 task descriptions & answers
-│   │
+│   └── session-12-matrix-multiplication-linear-regression/ # Session 12: Matrix Multiplication & Linear Regression
+│       ├── session_12_matrix_multiplication_linear_regression.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
+│       └── README.md                          # Session 12 task descriptions & answers
+│
+├── assignment-2/                              # Dedicated SQL & Database Coursework Track
+│   ├── README.md                              # Track 2 overview and session index
 │   ├── session-01-database-intro-and-sql-basics/ # Session 1: Database Introduction & SQL Basics
-│   │   ├── session_01_database_intro_sql_basics.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
+│   │   ├── session_01_database_intro_sql_basics.ipynb # Executed interactive notebook
 │   │   ├── solution.sql                       # Complete SQL script (MySQL & PostgreSQL compatible)
-│   │   ├── setup_and_verify.py                # Zero-install automated test & verification script
+│   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & AI answers
-│   │
 │   └── session-04-select-statement-basics/    # Session 4: SELECT Statement Basics
-│       ├── session_04_select_statement_basics.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
-│       ├── solution.sql                       # Complete SQL script (MySQL, PostgreSQL & SQLite compatible)
-│       ├── setup_and_verify.py                # Zero-install automated test & verification script
+│       ├── session_04_select_statement_basics.ipynb # Executed interactive notebook
+│       ├── solution.sql                       # Complete SQL script (LIMIT, DISTINCT, Aliases)
+│       ├── setup_and_verify.py                # Automated test & verification script
 │       └── README.md                          # Comprehensive session walkthrough & debugging guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
@@ -127,6 +127,8 @@ ds-work/
 
 | Folder | Topic / Focus | Core Technologies |
 | :--- | :--- | :--- |
+| [`assignments/`](./assignments/) | Assignment Track 1: Statistics & Git Coursework | Jupyter, SciPy, NumPy, Matplotlib, Git |
+| [`assignment-2/`](./assignment-2/) | Assignment Track 2: Working with Databases & SQL | SQL (MySQL, PostgreSQL, SQLite), Pandas |
 | [`sql-assessment/`](./sql-assessment/) | TOPS Technologies Data Science M4-A1 Assessment | SQLite, Pandas, NumPy, Matplotlib, Seaborn |
 | [`food-delivery-pipeline/`](./food-delivery-pipeline/) | Food Delivery Demand & Pipeline M2-A1 Assessment | Python, Git Flow, OOP, Functional Tools |
 | [`my-movie-ratings/`](./my-movie-ratings/) | Movie Ratings Analysis & Portfolio Page | Jupyter Notebook, Pandas, Data Viz, Git LFS |

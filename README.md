@@ -183,12 +183,18 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & Python sqlite3 guide
 │   │
-│   └── session-16-sql-project-sales-analysis/ # Session 16: SQL Project - Sales Analysis
-│       ├── session_16_sql_project_sales_analysis.ipynb # Executed interactive notebook (Tasks 1-5)
-│       ├── solution.sql                       # Complete SQL script (FoodOrders, TopSongs, KPIs)
+│   ├── session-16-sql-project-sales-analysis/ # Session 16: SQL Project - Sales Analysis
+│   │   ├── session_16_sql_project_sales_analysis.ipynb # Executed interactive notebook (Tasks 1-5)
+│   │   ├── solution.sql                       # Complete SQL script (FoodOrders, TopSongs, KPIs)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   ├── food_orders.csv                    # Food delivery orders raw dataset
+│   │   └── README.md                          # Comprehensive session walkthrough & sales analytics guide
+│   │
+│   └── session-17-sql-project-hr-analysis/    # Session 17: SQL Project - HR Analysis
+│       ├── session_17_sql_project_hr_analysis.ipynb # Executed interactive notebook (Tasks 1-5)
+│       ├── solution.sql                       # Complete SQL script (Restaurant, Review, Joins, Window)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       ├── food_orders.csv                    # Food delivery orders raw dataset
-│       └── README.md                          # Comprehensive session walkthrough & sales analytics guide
+│       └── README.md                          # Comprehensive session walkthrough & review analytics guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

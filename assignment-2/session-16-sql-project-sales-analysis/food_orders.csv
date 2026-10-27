@@ -1,0 +1,20 @@
+order_id,restaurant_name,customer_name,order_amount,order_date
+1,Burger King,Rahul Sharma,350.00,2026-03-01
+2,Subway,Amit Verma,300.00,2026-03-02
+3,Burger King,Priya Patel,450.00,2026-03-03
+4,Pizza Hut,Rahul Sharma,650.00,2026-03-04
+5,Starbucks,Amit Verma,420.00,2026-03-05
+6,Behrouz Biryani,Rahul Sharma,800.00,2026-03-06
+7,Biryani By Kilo,Priya Patel,750.00,2026-03-07
+8,Behrouz Biryani,Priya Patel,950.00,2026-03-08
+9,Biryani By Kilo,Sneha Reddy,900.00,2026-03-09
+10,Behrouz Biryani,Sneha Reddy,1100.00,2026-03-10
+11,Pizza Hut,Sneha Reddy,600.00,2026-03-11
+12,Burger King,Rohan Gupta,500.00,2026-03-12
+13,Behrouz Biryani,Rohan Gupta,850.00,2026-03-13
+14,Subway,Rohan Gupta,600.00,2026-03-14
+15,Subway,Ananya Singh,250.00,2026-03-15
+16,Starbucks,Ananya Singh,350.00,2026-03-16
+17,Subway,Vikram Malhotra,400.00,2026-03-17
+18,Haldiram's,Vikram Malhotra,520.00,2026-03-18
+19,Pizza Hut,Vikram Malhotra,480.00,2026-03-19

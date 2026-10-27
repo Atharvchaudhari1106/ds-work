@@ -176,12 +176,19 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & window frames guide
 │   │
-│   └── session-15-sql-python-integration/    # Session 15: SQL + Python Integration
-│       ├── session_15_sql_python_integration.ipynb # Executed interactive notebook (Tasks 1-5)
-│       ├── solution.sql                       # Complete SQL script (DDL, DML, Queries)
-│       ├── daily_summary.py                   # Automated standalone pipeline script for Task 5
+│   ├── session-15-sql-python-integration/    # Session 15: SQL + Python Integration
+│   │   ├── session_15_sql_python_integration.ipynb # Executed interactive notebook (Tasks 1-5)
+│   │   ├── solution.sql                       # Complete SQL script (DDL, DML, Queries)
+│   │   ├── daily_summary.py                   # Automated standalone pipeline script for Task 5
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & Python sqlite3 guide
+│   │
+│   └── session-16-sql-project-sales-analysis/ # Session 16: SQL Project - Sales Analysis
+│       ├── session_16_sql_project_sales_analysis.ipynb # Executed interactive notebook (Tasks 1-5)
+│       ├── solution.sql                       # Complete SQL script (FoodOrders, TopSongs, KPIs)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & Python sqlite3 guide
+│       ├── food_orders.csv                    # Food delivery orders raw dataset
+│       └── README.md                          # Comprehensive session walkthrough & sales analytics guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

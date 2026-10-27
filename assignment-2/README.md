@@ -22,6 +22,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | **Session 11** | [Subqueries](session-11-subqueries/README.md) | [`session_11_subqueries.ipynb`](session-11-subqueries/session_11_subqueries.ipynb) <br> [`solution.sql`](session-11-subqueries/solution.sql) | ✅ Completed (Executed) |
 | **Session 12** | [CTE (WITH Clause)](session-12-cte-with-clause/README.md) | [`session_12_cte_with_clause.ipynb`](session-12-cte-with-clause/session_12_cte_with_clause.ipynb) <br> [`solution.sql`](session-12-cte-with-clause/solution.sql) | ✅ Completed (Executed) |
 | **Session 13** | [Window Functions - Part 1](session-13-window-functions-part-1/README.md) | [`session_13_window_functions_part_1.ipynb`](session-13-window-functions-part-1/session_13_window_functions_part_1.ipynb) <br> [`solution.sql`](session-13-window-functions-part-1/solution.sql) | ✅ Completed (Executed) |
+| **Session 14** | [Window Functions - Part 2](session-14-window-functions-part-2/README.md) | [`session_14_window_functions_part_2.ipynb`](session-14-window-functions-part-2/session_14_window_functions_part_2.ipynb) <br> [`solution.sql`](session-14-window-functions-part-2/solution.sql) | ✅ Completed (Executed) |
 
 ---
 
@@ -108,12 +109,19 @@ assignment-2/
 │   ├── cte_demo.db                            # Pre-built SQLite database
 │   └── README.md                              # Complete task walkthrough & CTE reference
 │
-└── session-13-window-functions-part-1/        # Session 13: Window Functions - Part 1
-    ├── session_13_window_functions_part_1.ipynb # Interactive executed notebook (Tasks 1-5)
-    ├── solution.sql                           # Production SQL script (ROW_NUMBER, RANK, DENSE_RANK, PARTITION)
+├── session-13-window-functions-part-1/        # Session 13: Window Functions - Part 1
+│   ├── session_13_window_functions_part_1.ipynb # Interactive executed notebook (Tasks 1-5)
+│   ├── solution.sql                           # Production SQL script (ROW_NUMBER, RANK, DENSE_RANK, PARTITION)
+│   ├── setup_and_verify.py                    # Automated test runner
+│   ├── spotify_windows.db                     # Pre-built SQLite database
+│   └── README.md                              # Complete task walkthrough & ranking semantics guide
+│
+└── session-14-window-functions-part-2/        # Session 14: Window Functions - Part 2
+    ├── session_14_window_functions_part_2.ipynb # Interactive executed notebook (Tasks 1-5)
+    ├── solution.sql                           # Production SQL script (LAG, LEAD, Running Total, Moving Avg)
     ├── setup_and_verify.py                    # Automated test runner
-    ├── spotify_windows.db                     # Pre-built SQLite database
-    └── README.md                              # Complete task walkthrough & ranking semantics guide
+    ├── orders_window.db                       # Pre-built SQLite database
+    └── README.md                              # Complete task walkthrough & window frames guide
 ```
 
 ---
@@ -158,4 +166,7 @@ python assignment-2/session-12-cte-with-clause/setup_and_verify.py
 
 # Verify Session 13
 python assignment-2/session-13-window-functions-part-1/setup_and_verify.py
+
+# Verify Session 14
+python assignment-2/session-14-window-functions-part-2/setup_and_verify.py
 ```

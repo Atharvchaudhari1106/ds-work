@@ -97,11 +97,17 @@ ds-work/
 │   │   ├── session_12_matrix_multiplication_linear_regression.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
 │   │   └── README.md                          # Session 12 task descriptions & answers
 │   │
-│   └── session-01-database-intro-and-sql-basics/ # Session 1: Database Introduction & SQL Basics
-│       ├── session_01_database_intro_sql_basics.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
-│       ├── solution.sql                       # Complete SQL script (MySQL & PostgreSQL compatible)
+│   ├── session-01-database-intro-and-sql-basics/ # Session 1: Database Introduction & SQL Basics
+│   │   ├── session_01_database_intro_sql_basics.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
+│   │   ├── solution.sql                       # Complete SQL script (MySQL & PostgreSQL compatible)
+│   │   ├── setup_and_verify.py                # Zero-install automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & AI answers
+│   │
+│   └── session-04-select-statement-basics/    # Session 4: SELECT Statement Basics
+│       ├── session_04_select_statement_basics.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
+│       ├── solution.sql                       # Complete SQL script (MySQL, PostgreSQL & SQLite compatible)
 │       ├── setup_and_verify.py                # Zero-install automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & AI answers
+│       └── README.md                          # Comprehensive session walkthrough & debugging guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

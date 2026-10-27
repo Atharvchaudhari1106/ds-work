@@ -16,6 +16,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | **Session 4** | [SELECT Statement Basics](session-04-select-statement-basics/README.md) | [`session_04_select_statement_basics.ipynb`](session-04-select-statement-basics/session_04_select_statement_basics.ipynb) <br> [`solution.sql`](session-04-select-statement-basics/solution.sql) | ✅ Completed (Executed) |
 | **Session 5** | [WHERE Clause + LIKE](session-05-where-clause-and-like/README.md) | [`session_05_where_clause_and_like.ipynb`](session-05-where-clause-and-like/session_05_where_clause_and_like.ipynb) <br> [`solution.sql`](session-05-where-clause-and-like/solution.sql) | ✅ Completed (Executed) |
 | **Session 6** | [ORDER BY + Sorting](session-06-order-by-and-sorting/README.md) | [`session_06_order_by_and_sorting.ipynb`](session-06-order-by-and-sorting/session_06_order_by_and_sorting.ipynb) <br> [`solution.sql`](session-06-order-by-and-sorting/solution.sql) | ✅ Completed (Executed) |
+| **Session 8** | [GROUP BY + HAVING](session-08-group-by-and-having/README.md) | [`session_08_group_by_and_having.ipynb`](session-08-group-by-and-having/session_08_group_by_and_having.ipynb) <br> [`solution.sql`](session-08-group-by-and-having/solution.sql) | ✅ Completed (Executed) |
 
 ---
 
@@ -60,12 +61,19 @@ assignment-2/
 │   ├── restaurants.db                         # Pre-built SQLite database
 │   └── README.md                              # Complete task walkthrough & operator guide
 │
-└── session-06-order-by-and-sorting/           # Session 6: ORDER BY + Sorting
-    ├── session_06_order_by_and_sorting.ipynb  # Interactive executed notebook (Tasks 1-5)
-    ├── solution.sql                           # Production SQL script (ASC, DESC, Multi-Column)
+├── session-06-order-by-and-sorting/           # Session 6: ORDER BY + Sorting
+│   ├── session_06_order_by_and_sorting.ipynb  # Interactive executed notebook (Tasks 1-5)
+│   ├── solution.sql                           # Production SQL script (ASC, DESC, Multi-Column)
+│   ├── setup_and_verify.py                    # Automated test runner
+│   ├── sorting_app.db                         # Pre-built SQLite database
+│   └── README.md                              # Complete task walkthrough & sorting guide
+│
+└── session-08-group-by-and-having/            # Session 8: GROUP BY + HAVING
+    ├── session_08_group_by_and_having.ipynb   # Interactive executed notebook (Tasks 1-5)
+    ├── solution.sql                           # Production SQL script (GROUP BY, HAVING, WHERE vs HAVING)
     ├── setup_and_verify.py                    # Automated test runner
-    ├── sorting_app.db                         # Pre-built SQLite database
-    └── README.md                              # Complete task walkthrough & sorting guide
+    ├── orders.db                              # Pre-built SQLite database
+    └── README.md                              # Complete task walkthrough & aggregation guide
 ```
 
 ---
@@ -92,4 +100,7 @@ python assignment-2/session-05-where-clause-and-like/setup_and_verify.py
 
 # Verify Session 6
 python assignment-2/session-06-order-by-and-sorting/setup_and_verify.py
+
+# Verify Session 8
+python assignment-2/session-08-group-by-and-having/setup_and_verify.py
 ```

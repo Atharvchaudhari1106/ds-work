@@ -128,11 +128,17 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & operator guide
 │   │
-│   └── session-06-order-by-and-sorting/       # Session 6: ORDER BY + Sorting
-│       ├── session_06_order_by_and_sorting.ipynb # Executed interactive notebook
-│       ├── solution.sql                       # Complete SQL script (ASC, DESC, Multi-Column)
+│   ├── session-06-order-by-and-sorting/       # Session 6: ORDER BY + Sorting
+│   │   ├── session_06_order_by_and_sorting.ipynb # Executed interactive notebook
+│   │   ├── solution.sql                       # Complete SQL script (ASC, DESC, Multi-Column)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & sorting guide
+│   │
+│   └── session-08-group-by-and-having/        # Session 8: GROUP BY + HAVING
+│       ├── session_08_group_by_and_having.ipynb # Executed interactive notebook
+│       ├── solution.sql                       # Complete SQL script (GROUP BY, HAVING, Aggregations)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & sorting guide
+│       └── README.md                          # Comprehensive session walkthrough & aggregation guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

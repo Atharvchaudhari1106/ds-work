@@ -146,11 +146,17 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & join semantics guide
 │   │
-│   └── session-10-joins-part-2/               # Session 10: JOINS - Part 2
-│       ├── session_10_joins_part_2.ipynb      # Executed interactive notebook (FULL, SELF, Multi-Table JOINs)
-│       ├── solution.sql                       # Complete SQL script (Influencers, Playlists, Users/Orders/Payments)
+│   ├── session-10-joins-part-2/               # Session 10: JOINS - Part 2
+│   │   ├── session_10_joins_part_2.ipynb      # Executed interactive notebook (FULL, SELF, Multi-Table JOINs)
+│   │   ├── solution.sql                       # Complete SQL script (Influencers, Playlists, Users/Orders/Payments)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & advanced join guide
+│   │
+│   └── session-11-subqueries/                 # Session 11: Subqueries
+│       ├── session_11_subqueries.ipynb        # Executed interactive notebook (WHERE, SELECT, IN, Division)
+│       ├── solution.sql                       # Complete SQL script (Restaurants, Users, Movies, Sellers)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & advanced join guide
+│       └── README.md                          # Comprehensive session walkthrough & subqueries guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

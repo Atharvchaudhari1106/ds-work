@@ -19,6 +19,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | **Session 8** | [GROUP BY + HAVING](session-08-group-by-and-having/README.md) | [`session_08_group_by_and_having.ipynb`](session-08-group-by-and-having/session_08_group_by_and_having.ipynb) <br> [`solution.sql`](session-08-group-by-and-having/solution.sql) | ✅ Completed (Executed) |
 | **Session 9** | [JOINS - Part 1](session-09-joins-part-1/README.md) | [`session_09_joins_part_1.ipynb`](session-09-joins-part-1/session_09_joins_part_1.ipynb) <br> [`solution.sql`](session-09-joins-part-1/solution.sql) | ✅ Completed (Executed) |
 | **Session 10** | [JOINS - Part 2](session-10-joins-part-2/README.md) | [`session_10_joins_part_2.ipynb`](session-10-joins-part-2/session_10_joins_part_2.ipynb) <br> [`solution.sql`](session-10-joins-part-2/solution.sql) | ✅ Completed (Executed) |
+| **Session 11** | [Subqueries](session-11-subqueries/README.md) | [`session_11_subqueries.ipynb`](session-11-subqueries/session_11_subqueries.ipynb) <br> [`solution.sql`](session-11-subqueries/solution.sql) | ✅ Completed (Executed) |
 
 ---
 
@@ -84,12 +85,19 @@ assignment-2/
 │   ├── zomato_joins.db                        # Pre-built SQLite database
 │   └── README.md                              # Complete task walkthrough & join semantics guide
 │
-└── session-10-joins-part-2/                   # Session 10: JOINS - Part 2
-    ├── session_10_joins_part_2.ipynb          # Interactive executed notebook (Tasks 1-5)
-    ├── solution.sql                           # Production SQL script (FULL JOIN, SELF JOIN, Multiple JOINs)
+├── session-10-joins-part-2/                   # Session 10: JOINS - Part 2
+│   ├── session_10_joins_part_2.ipynb          # Interactive executed notebook (Tasks 1-5)
+│   ├── solution.sql                           # Production SQL script (FULL JOIN, SELF JOIN, Multiple JOINs)
+│   ├── setup_and_verify.py                    # Automated test runner
+│   ├── joins_part2.db                         # Pre-built SQLite database
+│   └── README.md                              # Complete task walkthrough & advanced join guide
+│
+└── session-11-subqueries/                     # Session 11: Subqueries
+    ├── session_11_subqueries.ipynb            # Interactive executed notebook (Tasks 1-4)
+    ├── solution.sql                           # Production SQL script (WHERE, SELECT, IN, Relational Division)
     ├── setup_and_verify.py                    # Automated test runner
-    ├── joins_part2.db                         # Pre-built SQLite database
-    └── README.md                              # Complete task walkthrough & advanced join guide
+    ├── subqueries.db                          # Pre-built SQLite database
+    └── README.md                              # Complete task walkthrough & subqueries guide
 ```
 
 ---
@@ -125,4 +133,7 @@ python assignment-2/session-09-joins-part-1/setup_and_verify.py
 
 # Verify Session 10
 python assignment-2/session-10-joins-part-2/setup_and_verify.py
+
+# Verify Session 11
+python assignment-2/session-11-subqueries/setup_and_verify.py
 ```

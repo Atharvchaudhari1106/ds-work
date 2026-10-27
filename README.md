@@ -170,11 +170,18 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & ranking guide
 │   │
-│   └── session-14-window-functions-part-2/    # Session 14: Window Functions - Part 2
-│       ├── session_14_window_functions_part_2.ipynb # Executed interactive notebook (LAG, LEAD, Running Total, Moving Avg)
-│       ├── solution.sql                       # Complete SQL script (LAG, LEAD, Running Total, Moving Avg)
+│   ├── session-14-window-functions-part-2/    # Session 14: Window Functions - Part 2
+│   │   ├── session_14_window_functions_part_2.ipynb # Executed interactive notebook (LAG, LEAD, Running Total, Moving Avg)
+│   │   ├── solution.sql                       # Complete SQL script (LAG, LEAD, Running Total, Moving Avg)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & window frames guide
+│   │
+│   └── session-15-sql-python-integration/    # Session 15: SQL + Python Integration
+│       ├── session_15_sql_python_integration.ipynb # Executed interactive notebook (Tasks 1-5)
+│       ├── solution.sql                       # Complete SQL script (DDL, DML, Queries)
+│       ├── daily_summary.py                   # Automated standalone pipeline script for Task 5
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & window frames guide
+│       └── README.md                          # Comprehensive session walkthrough & Python sqlite3 guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

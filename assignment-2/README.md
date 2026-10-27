@@ -23,6 +23,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | **Session 12** | [CTE (WITH Clause)](session-12-cte-with-clause/README.md) | [`session_12_cte_with_clause.ipynb`](session-12-cte-with-clause/session_12_cte_with_clause.ipynb) <br> [`solution.sql`](session-12-cte-with-clause/solution.sql) | ✅ Completed (Executed) |
 | **Session 13** | [Window Functions - Part 1](session-13-window-functions-part-1/README.md) | [`session_13_window_functions_part_1.ipynb`](session-13-window-functions-part-1/session_13_window_functions_part_1.ipynb) <br> [`solution.sql`](session-13-window-functions-part-1/solution.sql) | ✅ Completed (Executed) |
 | **Session 14** | [Window Functions - Part 2](session-14-window-functions-part-2/README.md) | [`session_14_window_functions_part_2.ipynb`](session-14-window-functions-part-2/session_14_window_functions_part_2.ipynb) <br> [`solution.sql`](session-14-window-functions-part-2/solution.sql) | ✅ Completed (Executed) |
+| **Session 15** | [SQL + Python Integration](session-15-sql-python-integration/README.md) | [`session_15_sql_python_integration.ipynb`](session-15-sql-python-integration/session_15_sql_python_integration.ipynb) <br> [`daily_summary.py`](session-15-sql-python-integration/daily_summary.py) <br> [`solution.sql`](session-15-sql-python-integration/solution.sql) | ✅ Completed (Executed) |
 
 ---
 
@@ -116,12 +117,21 @@ assignment-2/
 │   ├── spotify_windows.db                     # Pre-built SQLite database
 │   └── README.md                              # Complete task walkthrough & ranking semantics guide
 │
-└── session-14-window-functions-part-2/        # Session 14: Window Functions - Part 2
-    ├── session_14_window_functions_part_2.ipynb # Interactive executed notebook (Tasks 1-5)
-    ├── solution.sql                           # Production SQL script (LAG, LEAD, Running Total, Moving Avg)
+├── session-14-window-functions-part-2/        # Session 14: Window Functions - Part 2
+│   ├── session_14_window_functions_part_2.ipynb # Interactive executed notebook (Tasks 1-5)
+│   ├── solution.sql                           # Production SQL script (LAG, LEAD, Running Total, Moving Avg)
+│   ├── setup_and_verify.py                    # Automated test runner
+│   ├── orders_window.db                       # Pre-built SQLite database
+│   └── README.md                              # Complete task walkthrough & window frames guide
+│
+└── session-15-sql-python-integration/        # Session 15: SQL + Python Integration
+    ├── session_15_sql_python_integration.ipynb # Interactive executed notebook (Tasks 1-5)
+    ├── solution.sql                           # Production SQL script (DDL, DML, Queries)
+    ├── daily_summary.py                       # Automated standalone pipeline script for Task 5
     ├── setup_and_verify.py                    # Automated test runner
-    ├── orders_window.db                       # Pre-built SQLite database
-    └── README.md                              # Complete task walkthrough & window frames guide
+    ├── foodie.db                              # Pre-built SQLite database
+    ├── top_rated_restaurants.csv              # Automated CSV export of top-rated restaurants
+    └── README.md                              # Complete task walkthrough & Python sqlite3 guide
 ```
 
 ---
@@ -169,4 +179,7 @@ python assignment-2/session-13-window-functions-part-1/setup_and_verify.py
 
 # Verify Session 14
 python assignment-2/session-14-window-functions-part-2/setup_and_verify.py
+
+# Verify Session 15
+python assignment-2/session-15-sql-python-integration/setup_and_verify.py
 ```

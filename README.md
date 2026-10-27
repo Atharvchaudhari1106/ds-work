@@ -116,11 +116,17 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & safety guide
 │   │
-│   └── session-04-select-statement-basics/    # Session 4: SELECT Statement Basics
-│       ├── session_04_select_statement_basics.ipynb # Executed interactive notebook
-│       ├── solution.sql                       # Complete SQL script (LIMIT, DISTINCT, Aliases)
+│   ├── session-04-select-statement-basics/    # Session 4: SELECT Statement Basics
+│   │   ├── session_04_select_statement_basics.ipynb # Executed interactive notebook
+│   │   ├── solution.sql                       # Complete SQL script (LIMIT, DISTINCT, Aliases)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & debugging guide
+│   │
+│   └── session-05-where-clause-and-like/      # Session 5: WHERE Clause + LIKE Operator
+│       ├── session_05_where_clause_and_like.ipynb # Executed interactive notebook
+│       ├── solution.sql                       # Complete SQL script (LIKE, BETWEEN, IN)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & debugging guide
+│       └── README.md                          # Comprehensive session walkthrough & operator guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

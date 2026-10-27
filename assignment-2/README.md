@@ -14,6 +14,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | **Session 2** | [Database Setup + CREATE TABLE](session-02-database-setup-and-create-table/README.md) | [`session_02_database_setup_and_create_table.ipynb`](session-02-database-setup-and-create-table/session_02_database_setup_and_create_table.ipynb) <br> [`solution.sql`](session-02-database-setup-and-create-table/solution.sql) | ✅ Completed (Executed) |
 | **Session 3** | [INSERT, UPDATE & DELETE](session-03-insert-update-and-delete/README.md) | [`session_03_insert_update_and_delete.ipynb`](session-03-insert-update-and-delete/session_03_insert_update_and_delete.ipynb) <br> [`solution.sql`](session-03-insert-update-and-delete/solution.sql) | ✅ Completed (Executed) |
 | **Session 4** | [SELECT Statement Basics](session-04-select-statement-basics/README.md) | [`session_04_select_statement_basics.ipynb`](session-04-select-statement-basics/session_04_select_statement_basics.ipynb) <br> [`solution.sql`](session-04-select-statement-basics/solution.sql) | ✅ Completed (Executed) |
+| **Session 5** | [WHERE Clause + LIKE](session-05-where-clause-and-like/README.md) | [`session_05_where_clause_and_like.ipynb`](session-05-where-clause-and-like/session_05_where_clause_and_like.ipynb) <br> [`solution.sql`](session-05-where-clause-and-like/solution.sql) | ✅ Completed (Executed) |
 
 ---
 
@@ -44,12 +45,19 @@ assignment-2/
 │   ├── playlist_app.db                        # Pre-built SQLite database
 │   └── README.md                              # Complete task walkthrough & safety practices
 │
-└── session-04-select-statement-basics/        # Session 4: SELECT Statement Basics
-    ├── session_04_select_statement_basics.ipynb # Interactive executed notebook (Tasks 1-5)
-    ├── solution.sql                           # Production SQL script (LIMIT, DISTINCT, Aliases)
+├── session-04-select-statement-basics/        # Session 4: SELECT Statement Basics
+│   ├── session_04_select_statement_basics.ipynb # Interactive executed notebook (Tasks 1-5)
+│   ├── solution.sql                           # Production SQL script (LIMIT, DISTINCT, Aliases)
+│   ├── setup_and_verify.py                    # Automated test runner
+│   ├── music_and_food.db                      # Pre-built SQLite database
+│   └── README.md                              # Complete task walkthrough & query debugging guide
+│
+└── session-05-where-clause-and-like/          # Session 5: WHERE Clause + LIKE Operator
+    ├── session_05_where_clause_and_like.ipynb # Interactive executed notebook (Tasks 1-5)
+    ├── solution.sql                           # Production SQL script (LIKE, BETWEEN, IN)
     ├── setup_and_verify.py                    # Automated test runner
-    ├── music_and_food.db                      # Pre-built SQLite database
-    └── README.md                              # Complete task walkthrough & query debugging guide
+    ├── restaurants.db                         # Pre-built SQLite database
+    └── README.md                              # Complete task walkthrough & operator guide
 ```
 
 ---
@@ -70,4 +78,7 @@ python assignment-2/session-03-insert-update-and-delete/setup_and_verify.py
 
 # Verify Session 4
 python assignment-2/session-04-select-statement-basics/setup_and_verify.py
+
+# Verify Session 5
+python assignment-2/session-05-where-clause-and-like/setup_and_verify.py
 ```

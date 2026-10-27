@@ -152,11 +152,17 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & advanced join guide
 │   │
-│   └── session-11-subqueries/                 # Session 11: Subqueries
-│       ├── session_11_subqueries.ipynb        # Executed interactive notebook (WHERE, SELECT, IN, Division)
-│       ├── solution.sql                       # Complete SQL script (Restaurants, Users, Movies, Sellers)
+│   ├── session-11-subqueries/                 # Session 11: Subqueries
+│   │   ├── session_11_subqueries.ipynb        # Executed interactive notebook (WHERE, SELECT, IN, Division)
+│   │   ├── solution.sql                       # Complete SQL script (Restaurants, Users, Movies, Sellers)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & subqueries guide
+│   │
+│   └── session-12-cte-with-clause/            # Session 12: CTE (WITH Clause)
+│       ├── session_12_cte_with_clause.ipynb   # Executed interactive notebook (CTEs, Recursive, Refactoring)
+│       ├── solution.sql                       # Complete SQL script (Products, Ahmedabad, Instagram, BookMyShow)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & subqueries guide
+│       └── README.md                          # Comprehensive session walkthrough & CTE reference
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

@@ -27,6 +27,7 @@ This directory stores all session assignments, exercises, and coursework submiss
 | **Session 10** | [Bayes' Theorem (Basic)](session-10-bayes-theorem-basic/README.md) | [`session_10_bayes_theorem_basic.ipynb`](session-10-bayes-theorem-basic/session_10_bayes_theorem_basic.ipynb) | ✅ Completed (Executed) |
 | **Session 11** | [Vectors & Matrices (Basic)](session-11-vectors-and-matrices-basic/README.md) | [`session_11_vectors_and_matrices_basic.ipynb`](session-11-vectors-and-matrices-basic/session_11_vectors_and_matrices_basic.ipynb) | ✅ Completed (Executed) |
 | **Session 12** | [Matrix Multiplication & Linear Regression](session-12-matrix-multiplication-linear-regression/README.md) | [`session_12_matrix_multiplication_linear_regression.ipynb`](session-12-matrix-multiplication-linear-regression/session_12_matrix_multiplication_linear_regression.ipynb) | ✅ Completed (Executed) |
+| **Database & SQL (S1)** | [Database Intro & SQL Basics](session-01-database-intro-and-sql-basics/README.md) | [`session_01_database_intro_sql_basics.ipynb`](session-01-database-intro-and-sql-basics/session_01_database_intro_sql_basics.ipynb) | ✅ Completed (Executed) |
 
 ---
 

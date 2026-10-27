@@ -93,9 +93,15 @@ ds-work/
 │   │   ├── session_11_vectors_and_matrices_basic.ipynb # Primary interactive notebook (All 4 tasks solved & executed)
 │   │   └── README.md                          # Session 11 task descriptions & answers
 │   │
-│   └── session-12-matrix-multiplication-linear-regression/ # Session 12: Matrix Multiplication & Linear Regression
-│       ├── session_12_matrix_multiplication_linear_regression.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
-│       └── README.md                          # Session 12 task descriptions & answers
+│   ├── session-12-matrix-multiplication-linear-regression/ # Session 12: Matrix Multiplication & Linear Regression
+│   │   ├── session_12_matrix_multiplication_linear_regression.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
+│   │   └── README.md                          # Session 12 task descriptions & answers
+│   │
+│   └── session-01-database-intro-and-sql-basics/ # Session 1: Database Introduction & SQL Basics
+│       ├── session_01_database_intro_sql_basics.ipynb # Primary interactive notebook (All 5 tasks solved & executed)
+│       ├── solution.sql                       # Complete SQL script (MySQL & PostgreSQL compatible)
+│       ├── setup_and_verify.py                # Zero-install automated test & verification script
+│       └── README.md                          # Comprehensive session walkthrough & AI answers
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

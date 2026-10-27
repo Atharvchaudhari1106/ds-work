@@ -158,11 +158,17 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & subqueries guide
 │   │
-│   └── session-12-cte-with-clause/            # Session 12: CTE (WITH Clause)
-│       ├── session_12_cte_with_clause.ipynb   # Executed interactive notebook (CTEs, Recursive, Refactoring)
-│       ├── solution.sql                       # Complete SQL script (Products, Ahmedabad, Instagram, BookMyShow)
+│   ├── session-12-cte-with-clause/            # Session 12: CTE (WITH Clause)
+│   │   ├── session_12_cte_with_clause.ipynb   # Executed interactive notebook (CTEs, Recursive, Refactoring)
+│   │   ├── solution.sql                       # Complete SQL script (Products, Ahmedabad, Instagram, BookMyShow)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & CTE reference
+│   │
+│   └── session-13-window-functions-part-1/    # Session 13: Window Functions - Part 1
+│       ├── session_13_window_functions_part_1.ipynb # Executed interactive notebook (ROW_NUMBER, RANK, DENSE_RANK)
+│       ├── solution.sql                       # Complete SQL script (Playlists, OVER, PARTITION BY, Top 2 Playlists)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & CTE reference
+│       └── README.md                          # Comprehensive session walkthrough & ranking guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

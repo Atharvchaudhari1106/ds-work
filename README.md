@@ -140,11 +140,17 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & aggregation guide
 │   │
-│   └── session-09-joins-part-1/               # Session 9: JOINS - Part 1
-│       ├── session_09_joins_part_1.ipynb      # Executed interactive notebook (INNER, LEFT, RIGHT JOIN)
-│       ├── solution.sql                       # Complete SQL script (Restaurants & Dishes, Spotify scenario)
+│   ├── session-09-joins-part-1/               # Session 9: JOINS - Part 1
+│   │   ├── session_09_joins_part_1.ipynb      # Executed interactive notebook (INNER, LEFT, RIGHT JOIN)
+│   │   ├── solution.sql                       # Complete SQL script (Restaurants & Dishes, Spotify scenario)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & join semantics guide
+│   │
+│   └── session-10-joins-part-2/               # Session 10: JOINS - Part 2
+│       ├── session_10_joins_part_2.ipynb      # Executed interactive notebook (FULL, SELF, Multi-Table JOINs)
+│       ├── solution.sql                       # Complete SQL script (Influencers, Playlists, Users/Orders/Payments)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & join semantics guide
+│       └── README.md                          # Comprehensive session walkthrough & advanced join guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

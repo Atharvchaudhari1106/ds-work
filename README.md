@@ -110,6 +110,12 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & error guide
 │   │
+│   ├── session-03-insert-update-and-delete/   # Session 3: INSERT, UPDATE & DELETE
+│   │   ├── session_03_insert_update_and_delete.ipynb # Executed interactive notebook
+│   │   ├── solution.sql                       # Complete SQL script (DML operations & string concats)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & safety guide
+│   │
 │   └── session-04-select-statement-basics/    # Session 4: SELECT Statement Basics
 │       ├── session_04_select_statement_basics.ipynb # Executed interactive notebook
 │       ├── solution.sql                       # Complete SQL script (LIMIT, DISTINCT, Aliases)

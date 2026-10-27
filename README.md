@@ -196,11 +196,18 @@ ds-work/
 │   │   ├── setup_and_verify.py                # Automated test & verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & review analytics guide
 │   │
-│   └── session-18-interview-questions-final-revision/ # Session 18: Interview Questions + Final Revision
-│       ├── session_18_interview_questions_final_revision.ipynb # Executed interactive notebook (Tasks 1-5)
-│       ├── solution.sql                       # Complete SQL script (Aggregation, Joins, Subqueries, Windows, Indexing)
+│   ├── session-18-interview-questions-final-revision/ # Session 18: Interview Questions + Final Revision
+│   │   ├── session_18_interview_questions_final_revision.ipynb # Executed interactive notebook (Tasks 1-5)
+│   │   ├── solution.sql                       # Complete SQL script (Aggregation, Joins, Subqueries, Windows, Indexing)
+│   │   ├── setup_and_verify.py                # Automated test & verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & interview revision guide
+│   │
+│   └── case-study-zomato-bangalore-restaurants/ # Case Study: Zomato Bangalore Restaurants
+│       ├── case_study_zomato_bangalore_restaurants.ipynb # Executed interactive notebook (Tasks 1-5)
+│       ├── solution.sql                       # Complete SQL script (Koramangala, Pricing, Low-Rating, Segments, Chains)
 │       ├── setup_and_verify.py                # Automated test & verification script
-│       └── README.md                          # Comprehensive session walkthrough & interview revision guide
+│       ├── zomato_bangalore.csv               # Comprehensive Bangalore restaurants dataset
+│       └── README.md                          # Complete case study report & strategic recommendations
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

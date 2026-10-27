@@ -1,0 +1,82 @@
+restaurant_id,name,online_order,book_table,rating,votes,location,cuisines,approx_cost_for_two
+1,Punjab Grill,Yes,Yes,4.8,1850,Koramangala,North Indian,1400
+2,Empire Restaurant,Yes,No,4.6,2400,Koramangala,North Indian,600
+3,Meghana Foods,Yes,No,4.5,3100,Koramangala,North Indian,500
+4,Gramin,Yes,No,4.4,1420,Koramangala,North Indian,450
+5,Kapoor's Cafe,Yes,No,4.3,980,Koramangala,North Indian,400
+6,Oye Amritsar,Yes,No,4.1,820,Koramangala,North Indian,700
+7,Dhaba HR 26,Yes,No,3.9,640,Koramangala,North Indian,550
+8,Toscano,Yes,Yes,4.7,1920,UB City,Italian,1600
+9,Little Italy,Yes,Yes,4.4,1540,Indiranagar,Italian,1300
+10,Chianti,Yes,Yes,4.6,1780,Koramangala,Italian,1500
+11,Olive Beach,No,Yes,4.8,2100,Richmond Town,Mediterranean,2600
+12,Byg Brewski Brewing,Yes,Yes,4.7,4200,Sarjapur Road,Continental,1800
+13,Toit,No,Yes,4.8,4900,Indiranagar,Continental,1700
+14,Windmills Craftworks,No,Yes,4.7,2900,Whitefield,Continental,2200
+15,Shiro,No,Yes,4.5,1450,UB City,Mediterranean,2400
+16,Fenny's Lounge,Yes,Yes,4.4,1880,Koramangala,Mediterranean,2000
+17,Mavalli Tiffin Room (MTR),No,No,4.6,3500,Basavanagudi,South Indian,300
+18,Vidyarthi Bhavan,No,No,4.5,4100,Gandhi Bazaar,South Indian,250
+19,Taaza Thindi,No,No,4.7,2800,Jayanagar,South Indian,200
+20,CTR Shri Sagar,No,No,4.6,3900,Malleshwaram,South Indian,250
+21,Udupi Park,Yes,No,4.0,780,BTM Layout,South Indian,350
+22,Nagarjuna,Yes,Yes,4.5,2300,Residency Road,Andhra,750
+23,Bheemas,Yes,No,4.3,1650,Church Street,Andhra,650
+24,Beijing Bites,Yes,No,4.2,1200,Koramangala,Chinese,850
+25,Mainland China,Yes,Yes,4.5,2100,Indiranagar,Chinese,1400
+26,Chung Wah,Yes,No,4.0,890,Residency Road,Chinese,700
+27,Spice Route Express,Yes,No,2.7,210,Electronic City,North Indian,250
+28,Curry in a Hurry,Yes,No,2.8,180,Whitefield,North Indian,300
+29,Midnight Biryani Co,Yes,No,2.6,320,BTM Layout,Mughlai,350
+30,Burger Point,Yes,No,2.9,150,Marathahalli,Fast Food,220
+31,Taste of Punjab Cloud,Yes,No,2.8,190,HSR Layout,North Indian,280
+32,Cafe Coffee Day,Yes,No,3.8,620,Koramangala,Cafe,350
+33,Cafe Coffee Day,Yes,No,3.7,540,Indiranagar,Cafe,350
+34,Cafe Coffee Day,Yes,No,3.9,710,Jayanagar,Cafe,350
+35,Cafe Coffee Day,Yes,No,3.8,480,Whitefield,Cafe,350
+36,Cafe Coffee Day,Yes,No,3.6,420,HSR Layout,Cafe,350
+37,Cafe Coffee Day,Yes,No,3.7,510,MG Road,Cafe,350
+38,Cafe Coffee Day,Yes,No,3.8,630,BTM Layout,Cafe,350
+39,Cafe Coffee Day,Yes,No,3.9,590,Malleshwaram,Cafe,350
+40,Onesta,Yes,Yes,4.3,2800,Koramangala,Italian,600
+41,Onesta,Yes,Yes,4.2,2400,Indiranagar,Italian,600
+42,Onesta,Yes,Yes,4.3,2100,Jayanagar,Italian,600
+43,Onesta,Yes,Yes,4.1,1900,HSR Layout,Italian,600
+44,Onesta,Yes,Yes,4.2,1800,Marathahalli,Italian,600
+45,Onesta,Yes,Yes,4.4,2200,Whitefield,Italian,600
+46,Onesta,Yes,Yes,4.3,2500,BTM Layout,Italian,600
+47,Empire Restaurant,Yes,No,4.4,3200,Indiranagar,North Indian,650
+48,Empire Restaurant,Yes,No,4.3,2900,Church Street,North Indian,650
+49,Empire Restaurant,Yes,No,4.5,3400,Jayanagar,North Indian,650
+50,Empire Restaurant,Yes,No,4.2,2700,Kammanahalli,North Indian,650
+51,Empire Restaurant,Yes,No,4.3,2800,HSR Layout,North Indian,650
+52,Just Bake,Yes,No,3.9,450,Koramangala,Bakery,300
+53,Just Bake,Yes,No,4.0,520,Indiranagar,Bakery,300
+54,Just Bake,Yes,No,3.8,390,Jayanagar,Bakery,300
+55,Just Bake,Yes,No,3.9,480,Whitefield,Bakery,300
+56,Just Bake,Yes,No,4.1,610,HSR Layout,Bakery,300
+57,Just Bake,Yes,No,3.8,420,BTM Layout,Bakery,300
+58,Chai Point,Yes,No,4.1,980,Koramangala,Cafe,250
+59,Chai Point,Yes,No,4.0,850,Indiranagar,Cafe,250
+60,Chai Point,Yes,No,4.2,1100,Whitefield,Cafe,250
+61,Chai Point,Yes,No,4.1,920,HSR Layout,Cafe,250
+62,Chai Point,Yes,No,4.0,790,BTM Layout,Cafe,250
+63,McDonald's,Yes,No,4.1,1900,Koramangala,Fast Food,400
+64,McDonald's,Yes,No,4.2,2100,Indiranagar,Fast Food,400
+65,McDonald's,Yes,No,4.0,1750,Jayanagar,Fast Food,400
+66,McDonald's,Yes,No,4.1,1650,Whitefield,Fast Food,400
+67,McDonald's,Yes,No,4.2,1850,Malleshwaram,Fast Food,400
+68,KFC,Yes,No,4.0,1800,Koramangala,Fast Food,450
+69,KFC,Yes,No,4.1,2050,Indiranagar,Fast Food,450
+70,KFC,Yes,No,3.9,1550,Jayanagar,Fast Food,450
+71,KFC,Yes,No,4.0,1700,HSR Layout,Fast Food,450
+72,Subway,Yes,No,4.1,1200,Koramangala,Fast Food,350
+73,Subway,Yes,No,4.0,980,Indiranagar,Fast Food,350
+74,Subway,Yes,No,4.2,1300,Whitefield,Fast Food,350
+75,Subway,Yes,No,4.1,1100,HSR Layout,Fast Food,350
+76,Domino's Pizza,Yes,No,4.2,2600,Koramangala,Fast Food,400
+77,Domino's Pizza,Yes,No,4.3,2900,Indiranagar,Fast Food,400
+78,Domino's Pizza,Yes,No,4.1,2400,Jayanagar,Fast Food,400
+79,Domino's Pizza,Yes,No,4.2,2700,Whitefield,Fast Food,400
+80,Meghana Foods,Yes,No,4.6,3800,Indiranagar,North Indian,500
+81,Meghana Foods,Yes,No,4.5,3400,Jayanagar,North Indian,500

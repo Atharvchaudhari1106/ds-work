@@ -27,6 +27,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | **Session 16** | [SQL Project – Sales Analysis](session-16-sql-project-sales-analysis/README.md) | [`session_16_sql_project_sales_analysis.ipynb`](session-16-sql-project-sales-analysis/session_16_sql_project_sales_analysis.ipynb) <br> [`solution.sql`](session-16-sql-project-sales-analysis/solution.sql) <br> [`food_orders.csv`](session-16-sql-project-sales-analysis/food_orders.csv) | ✅ Completed (Executed) |
 | **Session 17** | [SQL Project – HR Analysis](session-17-sql-project-hr-analysis/README.md) | [`session_17_sql_project_hr_analysis.ipynb`](session-17-sql-project-hr-analysis/session_17_sql_project_hr_analysis.ipynb) <br> [`solution.sql`](session-17-sql-project-hr-analysis/solution.sql) | ✅ Completed (Executed) |
 | **Session 18** | [Interview Questions + Final Revision](session-18-interview-questions-final-revision/README.md) | [`session_18_interview_questions_final_revision.ipynb`](session-18-interview-questions-final-revision/session_18_interview_questions_final_revision.ipynb) <br> [`solution.sql`](session-18-interview-questions-final-revision/solution.sql) | ✅ Completed (Executed) |
+| **Case Study** | [Zomato Bangalore Restaurants](case-study-zomato-bangalore-restaurants/README.md) | [`case_study_zomato_bangalore_restaurants.ipynb`](case-study-zomato-bangalore-restaurants/case_study_zomato_bangalore_restaurants.ipynb) <br> [`solution.sql`](case-study-zomato-bangalore-restaurants/solution.sql) <br> [`zomato_bangalore.csv`](case-study-zomato-bangalore-restaurants/zomato_bangalore.csv) | ✅ Completed (Executed) |
 
 ---
 
@@ -151,12 +152,20 @@ assignment-2/
 │   ├── restaurant_analytics.db                # Pre-built SQLite database
 │   └── README.md                              # Complete task walkthrough & review analytics guide
 │
-└── session-18-interview-questions-final-revision/ # Session 18: Interview Questions + Final Revision
-    ├── session_18_interview_questions_final_revision.ipynb # Interactive executed notebook (Tasks 1-5)
-    ├── solution.sql                           # Production SQL script (Aggregation, Joins, Subqueries, Windows, Indexing)
+├── session-18-interview-questions-final-revision/ # Session 18: Interview Questions + Final Revision
+│   ├── session_18_interview_questions_final_revision.ipynb # Interactive executed notebook (Tasks 1-5)
+│   ├── solution.sql                           # Production SQL script (Aggregation, Joins, Subqueries, Windows, Indexing)
+│   ├── setup_and_verify.py                    # Automated test runner
+│   ├── interview_revision.db                  # Pre-built SQLite database
+│   └── README.md                              # Complete task walkthrough & interview revision guide
+│
+└── case-study-zomato-bangalore-restaurants/  # Case Study: Zomato Bangalore Restaurants
+    ├── case_study_zomato_bangalore_restaurants.ipynb # Interactive executed notebook (Tasks 1-5)
+    ├── solution.sql                           # Production SQL script (Koramangala, Pricing, Low-Rating, Segments, Chains)
     ├── setup_and_verify.py                    # Automated test runner
-    ├── interview_revision.db                  # Pre-built SQLite database
-    └── README.md                              # Complete task walkthrough & interview revision guide
+    ├── zomato_bangalore.csv                   # Comprehensive Bangalore restaurants dataset
+    ├── zomato_bangalore.db                    # Pre-built SQLite database
+    └── README.md                              # Complete case study report & strategic recommendations
 ```
 
 ---
@@ -216,4 +225,7 @@ python assignment-2/session-17-sql-project-hr-analysis/setup_and_verify.py
 
 # Verify Session 18
 python assignment-2/session-18-interview-questions-final-revision/setup_and_verify.py
+
+# Verify Case Study: Zomato Bangalore Restaurants
+python assignment-2/case-study-zomato-bangalore-restaurants/setup_and_verify.py
 ```

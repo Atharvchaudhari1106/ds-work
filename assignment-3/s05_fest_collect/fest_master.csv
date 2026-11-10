@@ -1,0 +1,401 @@
+reg_id,student_id,event,college,ticket_inr,paid,venue,day,budget_inr
+R001,S001,Gaming,Metro Arts Academy,500,Yes,E-Sports Arena,3,95000
+R002,S002,Music,City Commerce College,500,No,Open Air Amphitheatre,2,110000
+R003,S003,Quiz,Global Science University,500,Yes,Seminar Hall B,1,30000
+R004,S004,Music,St. Xavier Institute,100,Yes,Open Air Amphitheatre,2,110000
+R005,S005,Music,City Commerce College,400,Yes,Open Air Amphitheatre,2,110000
+R006,S006,Coding,Global Science University,300,No,Computer Lab 3,2,60000
+R007,S007,Quiz,Apex Engineering College,300,Yes,Seminar Hall B,1,30000
+R008,S008,Quiz,City Commerce College,500,No,Seminar Hall B,1,30000
+R009,S009,Quiz,St. Xavier Institute,250,Yes,Seminar Hall B,1,30000
+R010,S010,Music,Global Science University,350,No,Open Air Amphitheatre,2,110000
+R011,S011,Gaming,Global Science University,150,No,E-Sports Arena,3,95000
+R012,S012,Quiz,Global Science University,350,No,Seminar Hall B,1,30000
+R013,S013,Music,Apex Engineering College,150,No,Open Air Amphitheatre,2,110000
+R014,S014,Coding,City Commerce College,350,Yes,Computer Lab 3,2,60000
+R015,S015,Gaming,Apex Engineering College,400,Yes,E-Sports Arena,3,95000
+R016,S016,Coding,National Tech College,100,Yes,Computer Lab 3,2,60000
+R017,S017,Gaming,National Tech College,100,Yes,E-Sports Arena,3,95000
+R018,S018,Music,City Commerce College,500,Yes,Open Air Amphitheatre,2,110000
+R019,S019,Dance,Apex Engineering College,50,Yes,Main Auditorium,1,80000
+R020,S020,Gaming,St. Xavier Institute,450,Yes,E-Sports Arena,3,95000
+R021,S021,Coding,Global Science University,100,Yes,Computer Lab 3,2,60000
+R022,S022,Music,Global Science University,100,No,Open Air Amphitheatre,2,110000
+R023,S023,Gaming,City Commerce College,200,Yes,E-Sports Arena,3,95000
+R024,S024,Dance,National Tech College,200,Yes,Main Auditorium,1,80000
+R025,S025,Dance,National Tech College,50,No,Main Auditorium,1,80000
+R026,S026,Quiz,Global Science University,450,No,Seminar Hall B,1,30000
+R027,S027,Quiz,City Commerce College,250,Yes,Seminar Hall B,1,30000
+R028,S028,Coding,Apex Engineering College,200,No,Computer Lab 3,2,60000
+R029,S029,Gaming,National Tech College,250,No,E-Sports Arena,3,95000
+R030,S030,Gaming,Apex Engineering College,0,No,E-Sports Arena,3,95000
+R031,S031,Quiz,National Tech College,200,Yes,Seminar Hall B,1,30000
+R032,S032,Gaming,National Tech College,400,Yes,E-Sports Arena,3,95000
+R033,S033,Gaming,Metro Arts Academy,450,Yes,E-Sports Arena,3,95000
+R034,S034,Dance,National Tech College,50,Yes,Main Auditorium,1,80000
+R035,S035,Quiz,St. Xavier Institute,0,Yes,Seminar Hall B,1,30000
+R036,S036,Music,City Commerce College,450,Yes,Open Air Amphitheatre,2,110000
+R037,S037,Quiz,City Commerce College,500,No,Seminar Hall B,1,30000
+R038,S038,Music,Apex Engineering College,400,Yes,Open Air Amphitheatre,2,110000
+R039,S039,Dance,National Tech College,450,No,Main Auditorium,1,80000
+R040,S040,Coding,St. Xavier Institute,400,Yes,Computer Lab 3,2,60000
+R041,S041,Gaming,Apex Engineering College,400,Yes,E-Sports Arena,3,95000
+R042,S042,Dance,Metro Arts Academy,250,No,Main Auditorium,1,80000
+R043,S043,Gaming,Apex Engineering College,350,Yes,E-Sports Arena,3,95000
+R044,S044,Coding,Apex Engineering College,500,Yes,Computer Lab 3,2,60000
+R045,S045,Coding,National Tech College,0,No,Computer Lab 3,2,60000
+R046,S046,Dance,Metro Arts Academy,450,Yes,Main Auditorium,1,80000
+R047,S047,Coding,Apex Engineering College,150,Yes,Computer Lab 3,2,60000
+R048,S048,Music,St. Xavier Institute,0,No,Open Air Amphitheatre,2,110000
+R049,S049,Coding,St. Xavier Institute,350,Yes,Computer Lab 3,2,60000
+R050,S050,Gaming,City Commerce College,0,No,E-Sports Arena,3,95000
+R051,S051,Gaming,Metro Arts Academy,100,Yes,E-Sports Arena,3,95000
+R052,S052,Gaming,Metro Arts Academy,150,No,E-Sports Arena,3,95000
+R053,S053,Gaming,City Commerce College,350,Yes,E-Sports Arena,3,95000
+R054,S054,Music,Apex Engineering College,250,No,Open Air Amphitheatre,2,110000
+R055,S055,Quiz,Metro Arts Academy,450,No,Seminar Hall B,1,30000
+R056,S056,Dance,St. Xavier Institute,300,Yes,Main Auditorium,1,80000
+R057,S057,Gaming,St. Xavier Institute,350,Yes,E-Sports Arena,3,95000
+R058,S058,Coding,National Tech College,50,No,Computer Lab 3,2,60000
+R059,S059,Gaming,Metro Arts Academy,450,Yes,E-Sports Arena,3,95000
+R060,S060,Coding,Apex Engineering College,500,Yes,Computer Lab 3,2,60000
+R061,S061,Coding,City Commerce College,350,Yes,Computer Lab 3,2,60000
+R062,S062,Gaming,City Commerce College,100,Yes,E-Sports Arena,3,95000
+R063,S063,Music,Apex Engineering College,300,Yes,Open Air Amphitheatre,2,110000
+R064,S064,Coding,Global Science University,100,Yes,Computer Lab 3,2,60000
+R065,S065,Coding,National Tech College,300,Yes,Computer Lab 3,2,60000
+R066,S066,Gaming,City Commerce College,500,Yes,E-Sports Arena,3,95000
+R067,S067,Coding,Metro Arts Academy,50,Yes,Computer Lab 3,2,60000
+R068,S068,Coding,National Tech College,450,Yes,Computer Lab 3,2,60000
+R069,S069,Gaming,Metro Arts Academy,250,Yes,E-Sports Arena,3,95000
+R070,S070,Gaming,St. Xavier Institute,100,No,E-Sports Arena,3,95000
+R071,S071,Dance,National Tech College,100,Yes,Main Auditorium,1,80000
+R072,S072,Music,City Commerce College,400,Yes,Open Air Amphitheatre,2,110000
+R073,S073,Music,National Tech College,300,No,Open Air Amphitheatre,2,110000
+R074,S074,Coding,National Tech College,200,Yes,Computer Lab 3,2,60000
+R075,S075,Music,National Tech College,450,No,Open Air Amphitheatre,2,110000
+R076,S076,Coding,Global Science University,300,Yes,Computer Lab 3,2,60000
+R077,S077,Dance,National Tech College,400,Yes,Main Auditorium,1,80000
+R078,S078,Gaming,Metro Arts Academy,0,Yes,E-Sports Arena,3,95000
+R079,S079,Gaming,St. Xavier Institute,300,Yes,E-Sports Arena,3,95000
+R080,S080,Gaming,Apex Engineering College,250,Yes,E-Sports Arena,3,95000
+R081,S081,Music,National Tech College,450,Yes,Open Air Amphitheatre,2,110000
+R082,S082,Dance,City Commerce College,400,Yes,Main Auditorium,1,80000
+R083,S083,Music,National Tech College,0,Yes,Open Air Amphitheatre,2,110000
+R084,S084,Music,City Commerce College,150,Yes,Open Air Amphitheatre,2,110000
+R085,S085,Dance,Metro Arts Academy,400,Yes,Main Auditorium,1,80000
+R086,S086,Dance,City Commerce College,150,Yes,Main Auditorium,1,80000
+R087,S087,Dance,Apex Engineering College,450,Yes,Main Auditorium,1,80000
+R088,S088,Dance,St. Xavier Institute,100,Yes,Main Auditorium,1,80000
+R089,S089,Gaming,City Commerce College,400,Yes,E-Sports Arena,3,95000
+R090,S090,Quiz,City Commerce College,50,No,Seminar Hall B,1,30000
+R091,S091,Quiz,St. Xavier Institute,150,Yes,Seminar Hall B,1,30000
+R092,S092,Dance,Apex Engineering College,250,No,Main Auditorium,1,80000
+R093,S093,Quiz,National Tech College,50,Yes,Seminar Hall B,1,30000
+R094,S094,Quiz,City Commerce College,350,Yes,Seminar Hall B,1,30000
+R095,S095,Dance,St. Xavier Institute,350,No,Main Auditorium,1,80000
+R096,S096,Quiz,Metro Arts Academy,0,Yes,Seminar Hall B,1,30000
+R097,S097,Music,St. Xavier Institute,100,Yes,Open Air Amphitheatre,2,110000
+R098,S098,Coding,Metro Arts Academy,450,No,Computer Lab 3,2,60000
+R099,S099,Coding,Apex Engineering College,400,Yes,Computer Lab 3,2,60000
+R100,S100,Dance,National Tech College,200,No,Main Auditorium,1,80000
+R101,S101,Gaming,St. Xavier Institute,250,Yes,E-Sports Arena,3,95000
+R102,S102,Dance,Global Science University,150,No,Main Auditorium,1,80000
+R103,S103,Gaming,City Commerce College,450,Yes,E-Sports Arena,3,95000
+R104,S104,Coding,Apex Engineering College,50,Yes,Computer Lab 3,2,60000
+R105,S105,Dance,St. Xavier Institute,500,No,Main Auditorium,1,80000
+R106,S106,Music,City Commerce College,350,Yes,Open Air Amphitheatre,2,110000
+R107,S107,Quiz,St. Xavier Institute,500,No,Seminar Hall B,1,30000
+R108,S108,Gaming,Metro Arts Academy,250,Yes,E-Sports Arena,3,95000
+R109,S109,Quiz,St. Xavier Institute,200,Yes,Seminar Hall B,1,30000
+R110,S110,Quiz,Global Science University,400,Yes,Seminar Hall B,1,30000
+R111,S111,Dance,St. Xavier Institute,0,Yes,Main Auditorium,1,80000
+R112,S112,Quiz,St. Xavier Institute,200,Yes,Seminar Hall B,1,30000
+R113,S113,Music,Global Science University,250,No,Open Air Amphitheatre,2,110000
+R114,S114,Quiz,Apex Engineering College,200,No,Seminar Hall B,1,30000
+R115,S115,Dance,St. Xavier Institute,250,No,Main Auditorium,1,80000
+R116,S116,Music,Global Science University,250,Yes,Open Air Amphitheatre,2,110000
+R117,S117,Coding,City Commerce College,300,Yes,Computer Lab 3,2,60000
+R118,S118,Quiz,Metro Arts Academy,150,Yes,Seminar Hall B,1,30000
+R119,S119,Dance,Metro Arts Academy,500,Yes,Main Auditorium,1,80000
+R120,S120,Coding,St. Xavier Institute,350,Yes,Computer Lab 3,2,60000
+R121,S121,Coding,Apex Engineering College,300,Yes,Computer Lab 3,2,60000
+R122,S122,Gaming,Apex Engineering College,400,Yes,E-Sports Arena,3,95000
+R123,S123,Music,City Commerce College,300,Yes,Open Air Amphitheatre,2,110000
+R124,S124,Quiz,St. Xavier Institute,100,Yes,Seminar Hall B,1,30000
+R125,S125,Dance,Metro Arts Academy,100,Yes,Main Auditorium,1,80000
+R126,S126,Gaming,Apex Engineering College,350,Yes,E-Sports Arena,3,95000
+R127,S127,Music,St. Xavier Institute,200,Yes,Open Air Amphitheatre,2,110000
+R128,S128,Gaming,Apex Engineering College,150,No,E-Sports Arena,3,95000
+R129,S129,Music,Global Science University,350,Yes,Open Air Amphitheatre,2,110000
+R130,S130,Music,Apex Engineering College,250,Yes,Open Air Amphitheatre,2,110000
+R131,S131,Quiz,Metro Arts Academy,50,Yes,Seminar Hall B,1,30000
+R132,S132,Music,National Tech College,150,No,Open Air Amphitheatre,2,110000
+R133,S133,Gaming,City Commerce College,500,No,E-Sports Arena,3,95000
+R134,S134,Music,City Commerce College,150,No,Open Air Amphitheatre,2,110000
+R135,S135,Quiz,Metro Arts Academy,250,Yes,Seminar Hall B,1,30000
+R136,S136,Quiz,Apex Engineering College,250,Yes,Seminar Hall B,1,30000
+R137,S137,Gaming,St. Xavier Institute,0,Yes,E-Sports Arena,3,95000
+R138,S138,Coding,Apex Engineering College,350,No,Computer Lab 3,2,60000
+R139,S139,Coding,Metro Arts Academy,250,No,Computer Lab 3,2,60000
+R140,S140,Music,City Commerce College,100,Yes,Open Air Amphitheatre,2,110000
+R141,S141,Dance,Apex Engineering College,400,No,Main Auditorium,1,80000
+R142,S142,Music,City Commerce College,50,Yes,Open Air Amphitheatre,2,110000
+R143,S143,Gaming,St. Xavier Institute,500,Yes,E-Sports Arena,3,95000
+R144,S144,Gaming,City Commerce College,350,No,E-Sports Arena,3,95000
+R145,S145,Gaming,City Commerce College,450,No,E-Sports Arena,3,95000
+R146,S146,Gaming,National Tech College,100,Yes,E-Sports Arena,3,95000
+R147,S147,Gaming,National Tech College,200,Yes,E-Sports Arena,3,95000
+R148,S148,Quiz,Global Science University,250,Yes,Seminar Hall B,1,30000
+R149,S149,Coding,National Tech College,450,Yes,Computer Lab 3,2,60000
+R150,S150,Gaming,City Commerce College,250,Yes,E-Sports Arena,3,95000
+R151,S151,Dance,Metro Arts Academy,150,Yes,Main Auditorium,1,80000
+R152,S152,Dance,City Commerce College,100,No,Main Auditorium,1,80000
+R153,S153,Dance,Metro Arts Academy,150,Yes,Main Auditorium,1,80000
+R154,S154,Dance,Metro Arts Academy,0,Yes,Main Auditorium,1,80000
+R155,S155,Quiz,National Tech College,150,Yes,Seminar Hall B,1,30000
+R156,S156,Dance,Apex Engineering College,0,Yes,Main Auditorium,1,80000
+R157,S157,Gaming,St. Xavier Institute,0,Yes,E-Sports Arena,3,95000
+R158,S158,Music,National Tech College,450,Yes,Open Air Amphitheatre,2,110000
+R159,S159,Dance,National Tech College,250,Yes,Main Auditorium,1,80000
+R160,S160,Quiz,Apex Engineering College,200,Yes,Seminar Hall B,1,30000
+R161,S161,Quiz,St. Xavier Institute,500,No,Seminar Hall B,1,30000
+R162,S162,Dance,City Commerce College,150,Yes,Main Auditorium,1,80000
+R163,S163,Music,Global Science University,500,Yes,Open Air Amphitheatre,2,110000
+R164,S164,Dance,Global Science University,100,Yes,Main Auditorium,1,80000
+R165,S165,Quiz,City Commerce College,0,Yes,Seminar Hall B,1,30000
+R166,S166,Coding,National Tech College,250,Yes,Computer Lab 3,2,60000
+R167,S167,Gaming,St. Xavier Institute,50,Yes,E-Sports Arena,3,95000
+R168,S168,Quiz,National Tech College,350,Yes,Seminar Hall B,1,30000
+R169,S169,Dance,Metro Arts Academy,450,Yes,Main Auditorium,1,80000
+R170,S170,Gaming,National Tech College,200,Yes,E-Sports Arena,3,95000
+R171,S171,Dance,National Tech College,300,No,Main Auditorium,1,80000
+R172,S172,Dance,City Commerce College,450,Yes,Main Auditorium,1,80000
+R173,S173,Coding,City Commerce College,50,Yes,Computer Lab 3,2,60000
+R174,S174,Gaming,City Commerce College,350,Yes,E-Sports Arena,3,95000
+R175,S175,Gaming,Global Science University,50,Yes,E-Sports Arena,3,95000
+R176,S176,Coding,Metro Arts Academy,150,No,Computer Lab 3,2,60000
+R177,S177,Quiz,City Commerce College,0,Yes,Seminar Hall B,1,30000
+R178,S178,Dance,St. Xavier Institute,200,Yes,Main Auditorium,1,80000
+R179,S179,Music,Global Science University,400,Yes,Open Air Amphitheatre,2,110000
+R180,S180,Dance,Apex Engineering College,0,Yes,Main Auditorium,1,80000
+R181,S181,Dance,St. Xavier Institute,400,Yes,Main Auditorium,1,80000
+R182,S182,Quiz,St. Xavier Institute,500,No,Seminar Hall B,1,30000
+R183,S183,Dance,City Commerce College,350,Yes,Main Auditorium,1,80000
+R184,S184,Coding,Apex Engineering College,250,Yes,Computer Lab 3,2,60000
+R185,S185,Coding,Apex Engineering College,300,No,Computer Lab 3,2,60000
+R186,S186,Gaming,Global Science University,100,Yes,E-Sports Arena,3,95000
+R187,S187,Music,Apex Engineering College,0,Yes,Open Air Amphitheatre,2,110000
+R188,S188,Dance,Metro Arts Academy,200,Yes,Main Auditorium,1,80000
+R189,S189,Dance,City Commerce College,50,No,Main Auditorium,1,80000
+R190,S190,Quiz,Apex Engineering College,200,Yes,Seminar Hall B,1,30000
+R191,S191,Coding,Global Science University,350,Yes,Computer Lab 3,2,60000
+R192,S192,Music,Metro Arts Academy,500,Yes,Open Air Amphitheatre,2,110000
+R193,S193,Gaming,National Tech College,400,Yes,E-Sports Arena,3,95000
+R194,S194,Coding,National Tech College,50,Yes,Computer Lab 3,2,60000
+R195,S195,Gaming,Metro Arts Academy,100,Yes,E-Sports Arena,3,95000
+R196,S196,Quiz,Global Science University,100,Yes,Seminar Hall B,1,30000
+R197,S197,Quiz,Metro Arts Academy,0,Yes,Seminar Hall B,1,30000
+R198,S198,Dance,City Commerce College,350,Yes,Main Auditorium,1,80000
+R199,S199,Music,City Commerce College,250,Yes,Open Air Amphitheatre,2,110000
+R200,S200,Gaming,National Tech College,350,Yes,E-Sports Arena,3,95000
+R201,S201,Coding,Apex Engineering College,500,Yes,Computer Lab 3,2,60000
+R202,S202,Quiz,Global Science University,400,Yes,Seminar Hall B,1,30000
+R203,S203,Dance,National Tech College,200,Yes,Main Auditorium,1,80000
+R204,S204,Dance,Apex Engineering College,100,Yes,Main Auditorium,1,80000
+R205,S205,Gaming,Apex Engineering College,200,Yes,E-Sports Arena,3,95000
+R206,S206,Quiz,City Commerce College,200,No,Seminar Hall B,1,30000
+R207,S207,Music,St. Xavier Institute,200,Yes,Open Air Amphitheatre,2,110000
+R208,S208,Quiz,St. Xavier Institute,100,Yes,Seminar Hall B,1,30000
+R209,S209,Gaming,Metro Arts Academy,500,Yes,E-Sports Arena,3,95000
+R210,S210,Gaming,City Commerce College,450,No,E-Sports Arena,3,95000
+R211,S211,Quiz,Apex Engineering College,150,Yes,Seminar Hall B,1,30000
+R212,S212,Gaming,Global Science University,400,Yes,E-Sports Arena,3,95000
+R213,S213,Quiz,St. Xavier Institute,450,Yes,Seminar Hall B,1,30000
+R214,S214,Coding,Apex Engineering College,400,Yes,Computer Lab 3,2,60000
+R215,S215,Quiz,St. Xavier Institute,50,No,Seminar Hall B,1,30000
+R216,S216,Quiz,St. Xavier Institute,350,No,Seminar Hall B,1,30000
+R217,S217,Gaming,St. Xavier Institute,350,Yes,E-Sports Arena,3,95000
+R218,S218,Gaming,Global Science University,300,Yes,E-Sports Arena,3,95000
+R219,S219,Dance,City Commerce College,350,No,Main Auditorium,1,80000
+R220,S220,Dance,Global Science University,100,No,Main Auditorium,1,80000
+R221,S221,Coding,National Tech College,250,Yes,Computer Lab 3,2,60000
+R222,S222,Dance,Apex Engineering College,0,No,Main Auditorium,1,80000
+R223,S223,Quiz,City Commerce College,300,No,Seminar Hall B,1,30000
+R224,S224,Gaming,City Commerce College,0,Yes,E-Sports Arena,3,95000
+R225,S225,Dance,City Commerce College,400,Yes,Main Auditorium,1,80000
+R226,S226,Dance,City Commerce College,0,Yes,Main Auditorium,1,80000
+R227,S227,Coding,Global Science University,0,No,Computer Lab 3,2,60000
+R228,S228,Coding,City Commerce College,300,Yes,Computer Lab 3,2,60000
+R229,S229,Quiz,Metro Arts Academy,50,No,Seminar Hall B,1,30000
+R230,S230,Gaming,Apex Engineering College,200,Yes,E-Sports Arena,3,95000
+R231,S231,Coding,City Commerce College,350,Yes,Computer Lab 3,2,60000
+R232,S232,Dance,Apex Engineering College,350,Yes,Main Auditorium,1,80000
+R233,S233,Gaming,Metro Arts Academy,100,Yes,E-Sports Arena,3,95000
+R234,S234,Gaming,Metro Arts Academy,300,No,E-Sports Arena,3,95000
+R235,S235,Dance,Apex Engineering College,100,No,Main Auditorium,1,80000
+R236,S236,Coding,St. Xavier Institute,250,No,Computer Lab 3,2,60000
+R237,S237,Dance,National Tech College,250,Yes,Main Auditorium,1,80000
+R238,S238,Gaming,St. Xavier Institute,100,Yes,E-Sports Arena,3,95000
+R239,S239,Music,St. Xavier Institute,300,Yes,Open Air Amphitheatre,2,110000
+R240,S240,Music,Global Science University,100,Yes,Open Air Amphitheatre,2,110000
+R241,S241,Quiz,St. Xavier Institute,350,Yes,Seminar Hall B,1,30000
+R242,S242,Dance,City Commerce College,450,Yes,Main Auditorium,1,80000
+R243,S243,Dance,Global Science University,150,Yes,Main Auditorium,1,80000
+R244,S244,Quiz,Global Science University,0,Yes,Seminar Hall B,1,30000
+R245,S245,Quiz,Metro Arts Academy,150,No,Seminar Hall B,1,30000
+R246,S246,Quiz,St. Xavier Institute,300,No,Seminar Hall B,1,30000
+R247,S247,Gaming,Metro Arts Academy,500,Yes,E-Sports Arena,3,95000
+R248,S248,Dance,Apex Engineering College,150,Yes,Main Auditorium,1,80000
+R249,S249,Gaming,National Tech College,250,Yes,E-Sports Arena,3,95000
+R250,S250,Quiz,Global Science University,400,Yes,Seminar Hall B,1,30000
+R251,S251,Dance,Apex Engineering College,0,No,Main Auditorium,1,80000
+R252,S252,Gaming,Apex Engineering College,200,No,E-Sports Arena,3,95000
+R253,S253,Gaming,City Commerce College,500,Yes,E-Sports Arena,3,95000
+R254,S254,Quiz,National Tech College,300,Yes,Seminar Hall B,1,30000
+R255,S255,Dance,Apex Engineering College,0,Yes,Main Auditorium,1,80000
+R256,S256,Quiz,Apex Engineering College,150,Yes,Seminar Hall B,1,30000
+R257,S257,Dance,National Tech College,250,Yes,Main Auditorium,1,80000
+R258,S258,Music,National Tech College,50,No,Open Air Amphitheatre,2,110000
+R259,S259,Coding,Apex Engineering College,450,Yes,Computer Lab 3,2,60000
+R260,S260,Coding,National Tech College,200,Yes,Computer Lab 3,2,60000
+R261,S261,Coding,Apex Engineering College,500,No,Computer Lab 3,2,60000
+R262,S262,Quiz,Apex Engineering College,450,Yes,Seminar Hall B,1,30000
+R263,S263,Music,City Commerce College,0,Yes,Open Air Amphitheatre,2,110000
+R264,S264,Dance,St. Xavier Institute,250,Yes,Main Auditorium,1,80000
+R265,S265,Gaming,Apex Engineering College,250,Yes,E-Sports Arena,3,95000
+R266,S266,Dance,Metro Arts Academy,150,Yes,Main Auditorium,1,80000
+R267,S267,Gaming,Global Science University,350,Yes,E-Sports Arena,3,95000
+R268,S268,Dance,St. Xavier Institute,150,Yes,Main Auditorium,1,80000
+R269,S269,Music,St. Xavier Institute,350,No,Open Air Amphitheatre,2,110000
+R270,S270,Gaming,St. Xavier Institute,350,Yes,E-Sports Arena,3,95000
+R271,S271,Quiz,City Commerce College,200,No,Seminar Hall B,1,30000
+R272,S272,Dance,Apex Engineering College,150,No,Main Auditorium,1,80000
+R273,S273,Dance,City Commerce College,50,Yes,Main Auditorium,1,80000
+R274,S274,Gaming,Apex Engineering College,500,No,E-Sports Arena,3,95000
+R275,S275,Quiz,City Commerce College,100,Yes,Seminar Hall B,1,30000
+R276,S276,Quiz,City Commerce College,100,No,Seminar Hall B,1,30000
+R277,S277,Music,Global Science University,150,Yes,Open Air Amphitheatre,2,110000
+R278,S278,Quiz,Metro Arts Academy,150,Yes,Seminar Hall B,1,30000
+R279,S279,Quiz,City Commerce College,450,Yes,Seminar Hall B,1,30000
+R280,S280,Quiz,Global Science University,500,No,Seminar Hall B,1,30000
+R281,S281,Coding,National Tech College,500,Yes,Computer Lab 3,2,60000
+R282,S282,Music,Metro Arts Academy,200,Yes,Open Air Amphitheatre,2,110000
+R283,S283,Dance,City Commerce College,150,No,Main Auditorium,1,80000
+R284,S284,Gaming,St. Xavier Institute,500,Yes,E-Sports Arena,3,95000
+R285,S285,Dance,National Tech College,450,Yes,Main Auditorium,1,80000
+R286,S286,Music,National Tech College,350,Yes,Open Air Amphitheatre,2,110000
+R287,S287,Gaming,Global Science University,250,Yes,E-Sports Arena,3,95000
+R288,S288,Music,National Tech College,250,Yes,Open Air Amphitheatre,2,110000
+R289,S289,Quiz,Metro Arts Academy,350,No,Seminar Hall B,1,30000
+R290,S290,Gaming,City Commerce College,300,Yes,E-Sports Arena,3,95000
+R291,S291,Quiz,City Commerce College,450,Yes,Seminar Hall B,1,30000
+R292,S292,Dance,St. Xavier Institute,500,Yes,Main Auditorium,1,80000
+R293,S293,Dance,Global Science University,450,No,Main Auditorium,1,80000
+R294,S294,Gaming,St. Xavier Institute,350,No,E-Sports Arena,3,95000
+R295,S295,Gaming,National Tech College,50,Yes,E-Sports Arena,3,95000
+R296,S296,Music,St. Xavier Institute,400,No,Open Air Amphitheatre,2,110000
+R297,S297,Music,Metro Arts Academy,0,Yes,Open Air Amphitheatre,2,110000
+R298,S298,Quiz,City Commerce College,350,No,Seminar Hall B,1,30000
+R299,S299,Gaming,National Tech College,500,Yes,E-Sports Arena,3,95000
+R300,S300,Dance,St. Xavier Institute,150,No,Main Auditorium,1,80000
+R301,S301,Music,Global Science University,150,Yes,Open Air Amphitheatre,2,110000
+R302,S302,Music,Metro Arts Academy,200,Yes,Open Air Amphitheatre,2,110000
+R303,S303,Dance,Metro Arts Academy,350,No,Main Auditorium,1,80000
+R304,S304,Music,St. Xavier Institute,200,Yes,Open Air Amphitheatre,2,110000
+R305,S305,Quiz,City Commerce College,350,Yes,Seminar Hall B,1,30000
+R306,S306,Gaming,St. Xavier Institute,450,Yes,E-Sports Arena,3,95000
+R307,S307,Dance,National Tech College,0,Yes,Main Auditorium,1,80000
+R308,S308,Gaming,St. Xavier Institute,450,Yes,E-Sports Arena,3,95000
+R309,S309,Music,Metro Arts Academy,400,Yes,Open Air Amphitheatre,2,110000
+R310,S310,Music,St. Xavier Institute,250,Yes,Open Air Amphitheatre,2,110000
+R311,S311,Dance,City Commerce College,100,Yes,Main Auditorium,1,80000
+R312,S312,Quiz,Global Science University,350,No,Seminar Hall B,1,30000
+R313,S313,Coding,Apex Engineering College,400,Yes,Computer Lab 3,2,60000
+R314,S314,Dance,St. Xavier Institute,250,Yes,Main Auditorium,1,80000
+R315,S315,Coding,City Commerce College,500,Yes,Computer Lab 3,2,60000
+R316,S316,Coding,City Commerce College,300,Yes,Computer Lab 3,2,60000
+R317,S317,Quiz,Global Science University,0,No,Seminar Hall B,1,30000
+R318,S318,Coding,Metro Arts Academy,200,Yes,Computer Lab 3,2,60000
+R319,S319,Coding,City Commerce College,200,Yes,Computer Lab 3,2,60000
+R320,S320,Quiz,City Commerce College,450,No,Seminar Hall B,1,30000
+R321,S321,Coding,City Commerce College,150,No,Computer Lab 3,2,60000
+R322,S322,Coding,City Commerce College,250,Yes,Computer Lab 3,2,60000
+R323,S323,Coding,National Tech College,300,No,Computer Lab 3,2,60000
+R324,S324,Dance,National Tech College,400,No,Main Auditorium,1,80000
+R325,S325,Dance,Metro Arts Academy,0,Yes,Main Auditorium,1,80000
+R326,S326,Dance,St. Xavier Institute,250,No,Main Auditorium,1,80000
+R327,S327,Quiz,City Commerce College,300,Yes,Seminar Hall B,1,30000
+R328,S328,Music,Global Science University,100,Yes,Open Air Amphitheatre,2,110000
+R329,S329,Coding,St. Xavier Institute,350,Yes,Computer Lab 3,2,60000
+R330,S330,Coding,Global Science University,200,Yes,Computer Lab 3,2,60000
+R331,S331,Quiz,St. Xavier Institute,400,No,Seminar Hall B,1,30000
+R332,S332,Coding,Metro Arts Academy,200,No,Computer Lab 3,2,60000
+R333,S333,Dance,City Commerce College,400,Yes,Main Auditorium,1,80000
+R334,S334,Music,City Commerce College,450,Yes,Open Air Amphitheatre,2,110000
+R335,S335,Gaming,Apex Engineering College,150,Yes,E-Sports Arena,3,95000
+R336,S336,Coding,Global Science University,400,Yes,Computer Lab 3,2,60000
+R337,S337,Dance,St. Xavier Institute,200,Yes,Main Auditorium,1,80000
+R338,S338,Gaming,St. Xavier Institute,450,Yes,E-Sports Arena,3,95000
+R339,S339,Music,National Tech College,400,No,Open Air Amphitheatre,2,110000
+R340,S340,Gaming,Apex Engineering College,100,Yes,E-Sports Arena,3,95000
+R341,S341,Dance,National Tech College,150,No,Main Auditorium,1,80000
+R342,S342,Gaming,National Tech College,400,Yes,E-Sports Arena,3,95000
+R343,S343,Quiz,National Tech College,450,Yes,Seminar Hall B,1,30000
+R344,S344,Gaming,Global Science University,500,Yes,E-Sports Arena,3,95000
+R345,S345,Coding,Global Science University,250,Yes,Computer Lab 3,2,60000
+R346,S346,Coding,Metro Arts Academy,50,No,Computer Lab 3,2,60000
+R347,S347,Quiz,Metro Arts Academy,300,Yes,Seminar Hall B,1,30000
+R348,S348,Dance,National Tech College,50,No,Main Auditorium,1,80000
+R349,S349,Coding,Apex Engineering College,500,Yes,Computer Lab 3,2,60000
+R350,S350,Music,St. Xavier Institute,50,No,Open Air Amphitheatre,2,110000
+R351,S351,Coding,Global Science University,500,Yes,Computer Lab 3,2,60000
+R352,S352,Coding,Apex Engineering College,0,No,Computer Lab 3,2,60000
+R353,S353,Dance,City Commerce College,500,No,Main Auditorium,1,80000
+R354,S354,Gaming,Global Science University,500,Yes,E-Sports Arena,3,95000
+R355,S355,Coding,Global Science University,500,Yes,Computer Lab 3,2,60000
+R356,S356,Quiz,Metro Arts Academy,100,No,Seminar Hall B,1,30000
+R357,S357,Gaming,St. Xavier Institute,250,No,E-Sports Arena,3,95000
+R358,S358,Music,St. Xavier Institute,350,Yes,Open Air Amphitheatre,2,110000
+R359,S359,Dance,City Commerce College,400,Yes,Main Auditorium,1,80000
+R360,S360,Music,City Commerce College,300,No,Open Air Amphitheatre,2,110000
+R361,S361,Gaming,Global Science University,150,No,E-Sports Arena,3,95000
+R362,S362,Gaming,National Tech College,250,No,E-Sports Arena,3,95000
+R363,S363,Gaming,Metro Arts Academy,200,No,E-Sports Arena,3,95000
+R364,S364,Music,Metro Arts Academy,350,Yes,Open Air Amphitheatre,2,110000
+R365,S365,Gaming,Global Science University,0,Yes,E-Sports Arena,3,95000
+R366,S366,Music,Apex Engineering College,0,Yes,Open Air Amphitheatre,2,110000
+R367,S367,Gaming,National Tech College,500,Yes,E-Sports Arena,3,95000
+R368,S368,Quiz,Global Science University,250,Yes,Seminar Hall B,1,30000
+R369,S369,Gaming,National Tech College,450,Yes,E-Sports Arena,3,95000
+R370,S370,Music,National Tech College,50,No,Open Air Amphitheatre,2,110000
+R371,S371,Coding,National Tech College,200,Yes,Computer Lab 3,2,60000
+R372,S372,Gaming,Global Science University,0,Yes,E-Sports Arena,3,95000
+R373,S373,Coding,Metro Arts Academy,300,Yes,Computer Lab 3,2,60000
+R374,S374,Quiz,Metro Arts Academy,0,Yes,Seminar Hall B,1,30000
+R375,S375,Dance,National Tech College,150,Yes,Main Auditorium,1,80000
+R376,S376,Quiz,Apex Engineering College,400,Yes,Seminar Hall B,1,30000
+R377,S377,Gaming,St. Xavier Institute,0,Yes,E-Sports Arena,3,95000
+R378,S378,Coding,Global Science University,150,Yes,Computer Lab 3,2,60000
+R379,S379,Coding,St. Xavier Institute,250,Yes,Computer Lab 3,2,60000
+R380,S380,Music,Apex Engineering College,250,Yes,Open Air Amphitheatre,2,110000
+R381,S381,Coding,Global Science University,350,Yes,Computer Lab 3,2,60000
+R382,S382,Music,National Tech College,0,No,Open Air Amphitheatre,2,110000
+R383,S383,Dance,Metro Arts Academy,300,Yes,Main Auditorium,1,80000
+R384,S384,Gaming,St. Xavier Institute,0,No,E-Sports Arena,3,95000
+R385,S385,Music,City Commerce College,300,No,Open Air Amphitheatre,2,110000
+R386,S386,Dance,City Commerce College,100,Yes,Main Auditorium,1,80000
+R387,S387,Coding,Apex Engineering College,500,Yes,Computer Lab 3,2,60000
+R388,S388,Coding,National Tech College,350,Yes,Computer Lab 3,2,60000
+R389,S389,Dance,St. Xavier Institute,100,Yes,Main Auditorium,1,80000
+R390,S390,Coding,National Tech College,0,Yes,Computer Lab 3,2,60000
+R391,S391,Dance,St. Xavier Institute,350,Yes,Main Auditorium,1,80000
+R392,S392,Music,Apex Engineering College,100,Yes,Open Air Amphitheatre,2,110000
+R393,S393,Music,Apex Engineering College,50,Yes,Open Air Amphitheatre,2,110000
+R394,S394,Dance,City Commerce College,0,Yes,Main Auditorium,1,80000
+R395,S395,Music,National Tech College,100,Yes,Open Air Amphitheatre,2,110000
+R396,S396,Music,Global Science University,50,Yes,Open Air Amphitheatre,2,110000
+R397,S397,Music,City Commerce College,50,Yes,Open Air Amphitheatre,2,110000
+R398,S398,Quiz,National Tech College,250,Yes,Seminar Hall B,1,30000
+R399,S399,Gaming,City Commerce College,0,No,E-Sports Arena,3,95000
+R400,S400,Coding,Global Science University,50,Yes,Computer Lab 3,2,60000

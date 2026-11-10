@@ -1,0 +1,125 @@
+{
+  "status": "ok",
+  "data": [
+    {
+      "sponsor": "RedBull Gaming",
+      "amount_inr": 150000,
+      "contact": {
+        "city": "Mumbai",
+        "tier": "Platinum"
+      }
+    },
+    {
+      "sponsor": "TechGig Hackathon",
+      "amount_inr": 120000,
+      "contact": {
+        "city": "Bengaluru",
+        "tier": "Platinum"
+      }
+    },
+    {
+      "sponsor": "Spotify India",
+      "amount_inr": 100000,
+      "contact": {
+        "city": "Mumbai",
+        "tier": "Gold"
+      }
+    },
+    {
+      "sponsor": "Domino's Pizza",
+      "amount_inr": 80000,
+      "contact": {
+        "city": "Delhi",
+        "tier": "Gold"
+      }
+    },
+    {
+      "sponsor": "Zepto Quick",
+      "amount_inr": 75000,
+      "contact": {
+        "city": "Pune",
+        "tier": "Gold"
+      }
+    },
+    {
+      "sponsor": "Boat Lifestyle",
+      "amount_inr": 60000,
+      "contact": {
+        "city": "Delhi",
+        "tier": "Silver"
+      }
+    },
+    {
+      "sponsor": "Unstop Campus",
+      "amount_inr": 50000,
+      "contact": {
+        "city": "Bengaluru",
+        "tier": "Silver"
+      }
+    },
+    {
+      "sponsor": "Nestle Nescafe",
+      "amount_inr": 45000,
+      "contact": {
+        "city": "Kolkata",
+        "tier": "Silver"
+      }
+    },
+    {
+      "sponsor": "Logitech G",
+      "amount_inr": 40000,
+      "contact": {
+        "city": "Hyderabad",
+        "tier": "Bronze"
+      }
+    },
+    {
+      "sponsor": "CodeChef Live",
+      "amount_inr": 35000,
+      "contact": {
+        "city": "Chennai",
+        "tier": "Bronze"
+      }
+    },
+    {
+      "sponsor": "Decathlon Sports",
+      "amount_inr": 30000,
+      "contact": {
+        "city": "Ahmedabad",
+        "tier": "Bronze"
+      }
+    },
+    {
+      "sponsor": "Keventers Shakes",
+      "amount_inr": 25000,
+      "contact": {
+        "city": "Jaipur",
+        "tier": "Bronze"
+      }
+    },
+    {
+      "sponsor": "Skillshare Learn",
+      "amount_inr": 20000,
+      "contact": {
+        "city": "Noida",
+        "tier": "Supporter"
+      }
+    },
+    {
+      "sponsor": "Subway Fresh",
+      "amount_inr": 15000,
+      "contact": {
+        "city": "Gurugram",
+        "tier": "Supporter"
+      }
+    },
+    {
+      "sponsor": "Duolingo Club",
+      "amount_inr": 10000,
+      "contact": {
+        "city": "Chandigarh",
+        "tier": "Supporter"
+      }
+    }
+  ]
+}

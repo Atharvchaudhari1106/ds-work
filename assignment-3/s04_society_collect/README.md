@@ -132,3 +132,4 @@ Select **Kernel -> Restart & Run All** to re-render all data pipelines and chunk
 python society_collect.py
 ```
 Executes all four tasks, regenerates all file exports, and outputs the diagnostic issue report in your terminal.
+

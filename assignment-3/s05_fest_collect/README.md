@@ -129,3 +129,4 @@ Select **Kernel -> Restart & Run All** to execute all database queries, web requ
 python fest_collect.py
 ```
 Recreates all SQLite tables, JSON responses, batch partitions, and master merged CSV files directly in your terminal.
+

@@ -209,6 +209,16 @@ ds-work/
 │       ├── zomato_bangalore.csv               # Comprehensive Bangalore restaurants dataset
 │       └── README.md                          # Complete case study report & strategic recommendations
 │
+├── Data collection, Cleaning, Visualization and Analysis/ # Comprehensive 15-Session Data Wrangling & EDA Track
+│   ├── README.md                              # Detailed module curriculum & 15-session syllabus
+│   ├── Session-01/ to Session-03/             # NumPy Foundations, Indexing, Matrix Operations
+│   ├── Session-04/ to Session-05/             # Data Collection using Pandas (Parts 1 & 2)
+│   ├── Session-06/ to Session-08/             # Data Cleaning: Missing Values, Outliers, Duplicates & Typos
+│   ├── Session-09/                            # Working with Date & Time Data
+│   ├── Session-10/ to Session-11/             # Data Visualization with Matplotlib (Parts 1 & 2)
+│   ├── Session-12/ to Session-13/             # Data Visualization with Seaborn (Parts 1 & 2)
+│   └── Session-14/ to Session-15/             # Exploratory Data Analysis (EDA) & Auto-EDA Case Studies
+│
 ├── assignment-3/                              # Dedicated NumPy & Numerical Computing Track
 │   ├── README.md                              # Track 3 overview and session index
 │   ├── kirana_numpy.ipynb                     # Quick-access copy of Session 1 notebook
@@ -280,6 +290,7 @@ ds-work/
 | :--- | :--- | :--- |
 | [`assignments/`](./assignments/) | Assignment Track 1: Statistics & Git Coursework | Jupyter, SciPy, NumPy, Matplotlib, Git |
 | [`assignment-2/`](./assignment-2/) | Assignment Track 2: Working with Databases & SQL | SQL (MySQL, PostgreSQL, SQLite), Pandas |
+| [`Data collection, Cleaning, Visualization and Analysis/`](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/) | 15-Session Data Collection, Cleaning, Visualization & EDA Track | NumPy, Pandas, Matplotlib, Seaborn, YData Profiling, Missingno |
 | [`assignment-3/`](./assignment-3/) | Assignment Track 3: NumPy Foundations & Data Science | NumPy, Vectorization, Memory Layout, Python 3 |
 | [`sql-assessment/`](./sql-assessment/) | TOPS Technologies Data Science M4-A1 Assessment | SQLite, Pandas, NumPy, Matplotlib, Seaborn |
 | [`food-delivery-pipeline/`](./food-delivery-pipeline/) | Food Delivery Demand & Pipeline M2-A1 Assessment | Python, Git Flow, OOP, Functional Tools |

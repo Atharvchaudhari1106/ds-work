@@ -209,6 +209,15 @@ ds-work/
 │       ├── zomato_bangalore.csv               # Comprehensive Bangalore restaurants dataset
 │       └── README.md                          # Complete case study report & strategic recommendations
 │
+├── assignment-3/                              # Dedicated NumPy & Numerical Computing Track
+│   ├── README.md                              # Track 3 overview and session index
+│   ├── kirana_numpy.ipynb                     # Quick-access copy of Session 1 notebook
+│   ├── kirana_numpy.py                        # Quick-access copy of Session 1 Python runner
+│   └── s01_kirana_numpy/                      # Session 1: NumPy Foundations (Part 1: Arrays & Creation)
+│       ├── kirana_numpy.ipynb                 # Primary executed interactive notebook (Tasks 1-4)
+│       ├── kirana_numpy.py                    # Zero-dependency Python verification script
+│       └── README.md                          # Comprehensive session walkthrough & array audit report
+│
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets
 │
@@ -229,6 +238,7 @@ ds-work/
 | :--- | :--- | :--- |
 | [`assignments/`](./assignments/) | Assignment Track 1: Statistics & Git Coursework | Jupyter, SciPy, NumPy, Matplotlib, Git |
 | [`assignment-2/`](./assignment-2/) | Assignment Track 2: Working with Databases & SQL | SQL (MySQL, PostgreSQL, SQLite), Pandas |
+| [`assignment-3/`](./assignment-3/) | Assignment Track 3: NumPy Foundations & Data Science | NumPy, Vectorization, Memory Layout, Python 3 |
 | [`sql-assessment/`](./sql-assessment/) | TOPS Technologies Data Science M4-A1 Assessment | SQLite, Pandas, NumPy, Matplotlib, Seaborn |
 | [`food-delivery-pipeline/`](./food-delivery-pipeline/) | Food Delivery Demand & Pipeline M2-A1 Assessment | Python, Git Flow, OOP, Functional Tools |
 | [`my-movie-ratings/`](./my-movie-ratings/) | Movie Ratings Analysis & Portfolio Page | Jupyter Notebook, Pandas, Data Viz, Git LFS |

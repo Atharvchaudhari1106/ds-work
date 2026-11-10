@@ -213,10 +213,18 @@ ds-work/
 │   ├── README.md                              # Track 3 overview and session index
 │   ├── kirana_numpy.ipynb                     # Quick-access copy of Session 1 notebook
 │   ├── kirana_numpy.py                        # Quick-access copy of Session 1 Python runner
-│   └── s01_kirana_numpy/                      # Session 1: NumPy Foundations (Part 1: Arrays & Creation)
-│       ├── kirana_numpy.ipynb                 # Primary executed interactive notebook (Tasks 1-4)
-│       ├── kirana_numpy.py                    # Zero-dependency Python verification script
-│       └── README.md                          # Comprehensive session walkthrough & array audit report
+│   ├── kirana_indexing.ipynb                  # Quick-access copy of Session 2 notebook
+│   ├── kirana_indexing.py                     # Quick-access copy of Session 2 Python runner
+│   │
+│   ├── s01_kirana_numpy/                      # Session 1: NumPy Foundations (Part 1: Arrays & Creation)
+│   │   ├── kirana_numpy.ipynb                 # Primary executed interactive notebook (Tasks 1-4)
+│   │   ├── kirana_numpy.py                    # Zero-dependency Python verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & array audit report
+│   │
+│   └── s02_kirana_indexing/                   # Session 2: NumPy Intermediate (Part 2: Indexing, Slicing, Broadcasting)
+│       ├── kirana_indexing.ipynb              # Primary executed interactive notebook (Tasks 1-4)
+│       ├── kirana_indexing.py                 # Zero-dependency Python verification script
+│       └── README.md                          # Comprehensive session walkthrough & broadcasting guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

@@ -125,3 +125,4 @@ Select **Kernel -> Restart & Run All** to re-render all computations and `%timei
 python kirana_numpy.py
 ```
 This runs the complete workflow and displays the full diagnostic report in your terminal with zero external dependencies beyond `numpy`.
+

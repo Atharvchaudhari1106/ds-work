@@ -125,3 +125,4 @@ Select **Kernel -> Restart & Run All** to verify all cells and interactive visua
 python kirana_indexing.py
 ```
 Executes the full pipeline and displays clean tabular output in your terminal.
+

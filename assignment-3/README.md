@@ -12,6 +12,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | :--- | :--- | :--- | :--- |
 | **Session 1** | [NumPy Foundations (Part 1: Arrays & Creation)](./s01_kirana_numpy/README.md) | [`kirana_numpy.ipynb`](./s01_kirana_numpy/kirana_numpy.ipynb) <br> [`kirana_numpy.py`](./s01_kirana_numpy/kirana_numpy.py) | ✅ Completed (Executed) |
 | **Session 2** | [NumPy Intermediate (Part 2: Indexing, Slicing, Broadcasting)](./s02_kirana_indexing/README.md) | [`kirana_indexing.ipynb`](./s02_kirana_indexing/kirana_indexing.ipynb) <br> [`kirana_indexing.py`](./s02_kirana_indexing/kirana_indexing.py) | ✅ Completed (Executed) |
+| **Session 3** | [NumPy Advanced (Part 3: Matrix Ops & Manipulation)](./s03_kirana_matrix/README.md) | [`kirana_matrix.ipynb`](./s03_kirana_matrix/kirana_matrix.ipynb) <br> [`kirana_matrix.py`](./s03_kirana_matrix/kirana_matrix.py) | ✅ Completed (Executed) |
 
 ---
 
@@ -24,16 +25,23 @@ assignment-3/
 ├── kirana_numpy.py                    # Quick-access copy of Session 1 Python runner
 ├── kirana_indexing.ipynb              # Quick-access copy of Session 2 notebook
 ├── kirana_indexing.py                 # Quick-access copy of Session 2 Python runner
+├── kirana_matrix.ipynb                # Quick-access copy of Session 3 notebook
+├── kirana_matrix.py                   # Quick-access copy of Session 3 Python runner
 │
 ├── s01_kirana_numpy/                  # Session 1: NumPy Foundations (Part 1: Arrays & Creation)
 │   ├── README.md                      # Comprehensive session documentation & task analysis
 │   ├── kirana_numpy.ipynb             # Executed interactive Jupyter Notebook (All 4 tasks solved)
 │   └── kirana_numpy.py                # Standalone zero-dependency verification script
 │
-└── s02_kirana_indexing/               # Session 2: NumPy Intermediate (Part 2: Indexing, Slicing, Broadcasting)
-    ├── README.md                      # Comprehensive session documentation & broadcasting guide
-    ├── kirana_indexing.ipynb          # Executed interactive Jupyter Notebook (All 4 tasks solved)
-    └── kirana_indexing.py             # Standalone zero-dependency verification script
+├── s02_kirana_indexing/               # Session 2: NumPy Intermediate (Part 2: Indexing, Slicing, Broadcasting)
+│   ├── README.md                      # Comprehensive session documentation & broadcasting guide
+│   ├── kirana_indexing.ipynb          # Executed interactive Jupyter Notebook (All 4 tasks solved)
+│   └── kirana_indexing.py             # Standalone zero-dependency verification script
+│
+└── s03_kirana_matrix/                 # Session 3: NumPy Advanced (Part 3: Matrix Ops & Manipulation)
+    ├── README.md                      # Comprehensive session documentation & linear algebra guide
+    ├── kirana_matrix.ipynb            # Executed interactive Jupyter Notebook (All 4 tasks solved)
+    └── kirana_matrix.py               # Standalone zero-dependency verification script
 ```
 
 ---
@@ -46,4 +54,6 @@ assignment-3/
 - **Slicing & Memory Views:** Slices share underlying memory buffers; modifications affect the parent array unless `.copy()` is explicitly invoked.
 - **Multi-Dimensional Indexing:** Flexible slicing syntax (`[start:end:step]`), boolean masking (`units_sold > 40`), and fancy indexing (`[[0, 3, 5]]`) without loops.
 - **Broadcasting Principles:** Automatic dimension expansion across scalar and array operands when dimensions are equal or one is 1.
-- **Feature Scaling:** Efficient row-wise Min-Max normalization preserving dimensions with `keepdims=True`.
+- **Matrix Operations & BLAS Integration:** High-performance dot products, `@` matrix multiplications, and co-occurrence modeling.
+- **Linear Algebra (`np.linalg`):** Inverting non-singular matrices, computing determinants, and calculating steady-state Markov eigenvectors.
+- **Array Reshaping & Buffer Profiling:** Concatenating along existing axes, stacking into 3D tensors, and diagnosing physical memory sharing via `np.shares_memory()`.

@@ -114,3 +114,4 @@ Select **Kernel -> Restart & Run All** to verify all computations, linear algebr
 python kirana_matrix.py
 ```
 Runs all four tasks and renders formatted diagnostic tables directly in your terminal.
+

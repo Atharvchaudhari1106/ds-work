@@ -217,6 +217,8 @@ ds-work/
 │   ├── kirana_indexing.py                     # Quick-access copy of Session 2 Python runner
 │   ├── kirana_matrix.ipynb                    # Quick-access copy of Session 3 notebook
 │   ├── kirana_matrix.py                       # Quick-access copy of Session 3 Python runner
+│   ├── society_collect.ipynb                  # Quick-access copy of Session 4 notebook
+│   ├── society_collect.py                     # Quick-access copy of Session 4 Python runner
 │   │
 │   ├── s01_kirana_numpy/                      # Session 1: NumPy Foundations (Part 1: Arrays & Creation)
 │   │   ├── kirana_numpy.ipynb                 # Primary executed interactive notebook (Tasks 1-4)
@@ -228,10 +230,23 @@ ds-work/
 │   │   ├── kirana_indexing.py                 # Zero-dependency Python verification script
 │   │   └── README.md                          # Comprehensive session walkthrough & broadcasting guide
 │   │
-│   └── s03_kirana_matrix/                     # Session 3: NumPy Advanced (Part 3: Matrix Ops & Manipulation)
-│       ├── kirana_matrix.ipynb                # Primary executed interactive notebook (Tasks 1-4)
-│       ├── kirana_matrix.py                   # Zero-dependency Python verification script
-│       └── README.md                          # Comprehensive session walkthrough & linear algebra guide
+│   ├── s03_kirana_matrix/                     # Session 3: NumPy Advanced (Part 3: Matrix Ops & Manipulation)
+│   │   ├── kirana_matrix.ipynb                # Primary executed interactive notebook (Tasks 1-4)
+│   │   ├── kirana_matrix.py                   # Zero-dependency Python verification script
+│   │   └── README.md                          # Comprehensive session walkthrough & linear algebra guide
+│   │
+│   └── s04_society_collect/                   # Session 4: Data Collection using Pandas (Part 1)
+│       ├── society_collect.ipynb              # Primary executed interactive notebook (Tasks 1-4)
+│       ├── society_collect.py                 # Zero-dependency Python verification script
+│       ├── readings_comma.csv                 # Standard CSV export (1,200 rows)
+│       ├── readings_semicolon.csv             # Semicolon-delimited CSV export
+│       ├── readings_tab.tsv                   # Tab-separated values export
+│       ├── readings.xlsx                      # Excel workbook export (openpyxl)
+│       ├── readings.json                      # JSON records export
+│       ├── meter_big.csv                      # 60,000-row smart meter dataset for chunking
+│       ├── readings_messy.csv                 # Injected data defects dataset
+│       ├── society_issue_report.csv           # Columnar diagnostic issue report
+│       └── README.md                          # Comprehensive session walkthrough & data ingestion guide
 │
 ├── notebooks/                                 # General exploratory data analysis (EDA)
 ├── data/                                      # Shared raw and processed datasets

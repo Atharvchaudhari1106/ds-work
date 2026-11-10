@@ -1,6 +1,6 @@
-# Assignment Track 3: Data Science Foundations & Numerical Computing with NumPy
+# Assignment Track 3: Data Science Foundations & Numerical Computing with NumPy & Pandas
 
-This directory contains coursework submissions, laboratory notebooks, and applied assignments for **Assignment 3: Numerical Computing & NumPy Foundations**.
+This directory contains coursework submissions, laboratory notebooks, and applied assignments for **Assignment 3: Numerical Computing & Pandas Data Processing**.
 
 All sessions follow an **`.ipynb`-first** interactive format with pre-rendered results, paired with standalone `.py` scripts and zero-dependency terminal execution runners.
 
@@ -13,6 +13,7 @@ All sessions follow an **`.ipynb`-first** interactive format with pre-rendered r
 | **Session 1** | [NumPy Foundations (Part 1: Arrays & Creation)](./s01_kirana_numpy/README.md) | [`kirana_numpy.ipynb`](./s01_kirana_numpy/kirana_numpy.ipynb) <br> [`kirana_numpy.py`](./s01_kirana_numpy/kirana_numpy.py) | ✅ Completed (Executed) |
 | **Session 2** | [NumPy Intermediate (Part 2: Indexing, Slicing, Broadcasting)](./s02_kirana_indexing/README.md) | [`kirana_indexing.ipynb`](./s02_kirana_indexing/kirana_indexing.ipynb) <br> [`kirana_indexing.py`](./s02_kirana_indexing/kirana_indexing.py) | ✅ Completed (Executed) |
 | **Session 3** | [NumPy Advanced (Part 3: Matrix Ops & Manipulation)](./s03_kirana_matrix/README.md) | [`kirana_matrix.ipynb`](./s03_kirana_matrix/kirana_matrix.ipynb) <br> [`kirana_matrix.py`](./s03_kirana_matrix/kirana_matrix.py) | ✅ Completed (Executed) |
+| **Session 4** | [Data Collection using Pandas (Part 1)](./s04_society_collect/README.md) | [`society_collect.ipynb`](./s04_society_collect/society_collect.ipynb) <br> [`society_collect.py`](./s04_society_collect/society_collect.py) | ✅ Completed (Executed) |
 
 ---
 
@@ -27,6 +28,8 @@ assignment-3/
 ├── kirana_indexing.py                 # Quick-access copy of Session 2 Python runner
 ├── kirana_matrix.ipynb                # Quick-access copy of Session 3 notebook
 ├── kirana_matrix.py                   # Quick-access copy of Session 3 Python runner
+├── society_collect.ipynb              # Quick-access copy of Session 4 notebook
+├── society_collect.py                 # Quick-access copy of Session 4 Python runner
 │
 ├── s01_kirana_numpy/                  # Session 1: NumPy Foundations (Part 1: Arrays & Creation)
 │   ├── README.md                      # Comprehensive session documentation & task analysis
@@ -38,10 +41,23 @@ assignment-3/
 │   ├── kirana_indexing.ipynb          # Executed interactive Jupyter Notebook (All 4 tasks solved)
 │   └── kirana_indexing.py             # Standalone zero-dependency verification script
 │
-└── s03_kirana_matrix/                 # Session 3: NumPy Advanced (Part 3: Matrix Ops & Manipulation)
-    ├── README.md                      # Comprehensive session documentation & linear algebra guide
-    ├── kirana_matrix.ipynb            # Executed interactive Jupyter Notebook (All 4 tasks solved)
-    └── kirana_matrix.py               # Standalone zero-dependency verification script
+├── s03_kirana_matrix/                 # Session 3: NumPy Advanced (Part 3: Matrix Ops & Manipulation)
+│   ├── README.md                      # Comprehensive session documentation & linear algebra guide
+│   ├── kirana_matrix.ipynb            # Executed interactive Jupyter Notebook (All 4 tasks solved)
+│   └── kirana_matrix.py               # Standalone zero-dependency verification script
+│
+└── s04_society_collect/               # Session 4: Data Collection using Pandas (Part 1)
+    ├── README.md                      # Comprehensive session documentation & data ingestion guide
+    ├── society_collect.ipynb          # Executed interactive Jupyter Notebook (All 4 tasks solved)
+    ├── society_collect.py             # Standalone zero-dependency verification script
+    ├── readings_comma.csv             # Standard CSV export (1,200 rows)
+    ├── readings_semicolon.csv         # Semicolon-delimited CSV export
+    ├── readings_tab.tsv               # Tab-separated values export
+    ├── readings.xlsx                  # Excel workbook export (openpyxl)
+    ├── readings.json                  # JSON records export
+    ├── meter_big.csv                  # 60,000-row smart meter dataset for chunking
+    ├── readings_messy.csv             # Injected data defects dataset
+    └── society_issue_report.csv       # Columnar diagnostic issue report
 ```
 
 ---
@@ -49,11 +65,10 @@ assignment-3/
 ## 💡 Key Conceptual Highlights
 
 - **Contiguous Memory Buffers:** NumPy arrays allocate flat, unbroken blocks in memory (`C_CONTIGUOUS`), enabling direct hardware cache prefetching.
-- **Pointer Overhead Elimination:** Python lists store pointers to `PyObject` wrappers (~28 bytes per integer). NumPy stores raw bytes (8 bytes for `int64`), reducing memory consumption by over **75%**.
-- **Vectorized SIMD Execution:** NumPy operations bypass Python's bytecode evaluation loop and execute pre-compiled C loops with SIMD vectorization, achieving speedups of **20x to 100x**.
+- **Vectorized SIMD Execution:** NumPy operations bypass Python's bytecode evaluation loop and execute pre-compiled C loops with SIMD vectorization.
 - **Slicing & Memory Views:** Slices share underlying memory buffers; modifications affect the parent array unless `.copy()` is explicitly invoked.
-- **Multi-Dimensional Indexing:** Flexible slicing syntax (`[start:end:step]`), boolean masking (`units_sold > 40`), and fancy indexing (`[[0, 3, 5]]`) without loops.
 - **Broadcasting Principles:** Automatic dimension expansion across scalar and array operands when dimensions are equal or one is 1.
-- **Matrix Operations & BLAS Integration:** High-performance dot products, `@` matrix multiplications, and co-occurrence modeling.
 - **Linear Algebra (`np.linalg`):** Inverting non-singular matrices, computing determinants, and calculating steady-state Markov eigenvectors.
-- **Array Reshaping & Buffer Profiling:** Concatenating along existing axes, stacking into 3D tensors, and diagnosing physical memory sharing via `np.shares_memory()`.
+- **Multi-Format Pandas Parsers:** Exporting and importing across CSV, Semicolon CSV, TSV, Excel, and JSON with automated schema detection.
+- **Out-of-Core Processing (`chunksize`):** Reading large datasets in stream iterators to calculate metrics in constant $O(1)$ memory.
+- **Early Issue Detection:** Quantifying missing rates, data type corruption, and high cardinality before feeding machine learning pipelines.
